@@ -39,4 +39,24 @@ export const sector = [
     img: "https://images.pexels.com/photos/358220/pexels-photo-358220.jpeg?auto=compress&cs=tinysrgb&w=600",
     title: "Avation",
   },
+  {
+    id: "9",
+    img: "https://images.pexels.com/photos/2324837/pexels-photo-2324837.jpeg?auto=compress&cs=tinysrgb&w=600",
+    title: "Medical & Hospital",
+  },
+  {
+    id: "10",
+    img: "https://images.pexels.com/photos/945177/pexels-photo-945177.jpeg?auto=compress&cs=tinysrgb&w=600",
+    title: "Cruise",
+  },
+  {
+    id: "11",
+    img: "https://images.pexels.com/photos/1216589/pexels-photo-1216589.jpeg?auto=compress&cs=tinysrgb&w=600",
+    title: "Contruction",
+  },
+  {
+    id: "12",
+    img: "https://images.pexels.com/photos/6060192/pexels-photo-6060192.jpeg?auto=compress&cs=tinysrgb&w=600",
+    title: "Oil & Gas Refineries",
+  },
 ];

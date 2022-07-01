@@ -9,7 +9,7 @@ const Navbar = () => {
         <div class="container navBarWrapper">
           {/* company logo */}
           <a class="navbar-brand" href="*">
-           <img src={logo} alt="" />
+            <img src={logo} alt="" />
           </a>
           <button
             class="navbar-toggler"

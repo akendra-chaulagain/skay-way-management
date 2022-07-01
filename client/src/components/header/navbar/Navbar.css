@@ -7,31 +7,28 @@
   z-index: 99;
 }
 
-
 .navbar-brand {
   color: white;
   font-weight: 600;
   font-size: 24px;
 }
-.navbar-brand img{
-  height: 10vh;
-  margin-left: 20%;
+.navbar-brand img {
+  height: 9vh;
 }
 
 /* nav items */
 .nav-item {
-  margin-left: 22px;
+  margin-left: 15px;
 }
 .nav-item i {
-  font-size: 13px;
+  /* font-size: 13px; */
   margin-left: 8px;
 }
-.nav-link {
-  font-size: 17.5px;
+.nav-item a {
   color: white;
-  font-size: 16px;
+  font-size: 17px;
 }
-.nav-link:hover {
+.nav-item a:hover {
   color: black;
 }
 
@@ -73,11 +70,6 @@
 }
 .dropdown:hover .dropdown-content {
   display: block;
-}
-.offterTextNav {
-  width: 30%;
-  background-color: red;
-  margin-right: 5%;
 }
 
 @media only screen and (max-width: 1000px) {

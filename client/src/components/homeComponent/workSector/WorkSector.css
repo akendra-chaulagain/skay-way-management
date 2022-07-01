@@ -1,6 +1,6 @@
 .sector {
   width: 100%;
-  height: 100vh;
+  height: 110vh;
   background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7));
   overflow: hidden;
   display: flex;
@@ -17,10 +17,9 @@
   margin: 0px 0px 4vh 0vh;
 }
 .sectorWrapper {
-  width: 90%;
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
+  width: 94%;
+  margin-left: 3%;
+ 
 }
 
 .sector__item {

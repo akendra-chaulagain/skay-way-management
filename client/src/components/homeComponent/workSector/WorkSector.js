@@ -10,7 +10,7 @@ const WorkSector = () => {
           <div className="sectorTitle">SECTOR WE WORK FOR</div>
           <div className="row">
             {sector.map((item) => (
-              <div class="col-xl-3 col-lg-4 col-md-6">
+              <div class="col-xl-2 col-lg-3 col-md-6">
                 <div
                   class="sector__item p-relative text-center fix mb-30 wow fadeInUp"
                   data-wow-delay=".4s"

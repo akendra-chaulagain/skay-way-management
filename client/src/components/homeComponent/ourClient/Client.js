@@ -32,7 +32,7 @@ const Client = () => {
   return (
     <>
       <div className="container-fluid client">
-        <div className="clientWrapper">
+       
           <div className="clientTopBar"> OUR CLIENTS</div>
           <div className="row">
             <div>
@@ -58,7 +58,7 @@ const Client = () => {
               </Carousel>
             </div>
           </div>
-        </div>
+      
       </div>
     </>
   );

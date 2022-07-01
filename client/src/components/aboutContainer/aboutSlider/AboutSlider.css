@@ -1,11 +1,10 @@
-.slider__area {
-  /* margin: 10vh 0vh 10vh 0vh; */
+.aboutTop__area {
   background-image: linear-gradient(
       rgba(44, 54, 95, 0.7),
       rgba(12, 43, 136, 0.7)
     ),
-    url("https://images.pexels.com/photos/1216544/pexels-photo-1216544.jpeg?auto=compress&cs=tinysrgb&w=1460&h=1250&dpr=1");
-  height: 100vh;
+    url("https://images.pexels.com/photos/1595385/pexels-photo-1595385.jpeg?auto=compress&cs=tinysrgb&w=1200");
+  height: 40vh;
   width: 100%;
   background-size: cover;
   background-position: center;
@@ -20,77 +19,72 @@
   z-index: -1;
 }
 
-.slider__height {
-  min-height: 450px;
-}
 
-.slider__content {
+
+.aboutTop__content {
   position: relative;
   z-index: 1;
 }
-.slider__content > span {
-  color: white;
-  font-size: 18px;
-  display: inline-block;
-  margin-bottom: 7px;
+
+.aboutTop__content{
+  height: 40vh;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
 }
-.slider__content h1 {
-  font-size: 45px;
+.aboutTop__content h1 {
+  font-size: 40px;
   color: white;
   font-weight: 900;
-  margin-bottom: 38px;
+  margin-bottom: 19px;
 }
-
-.z-btn-transparent {
-  background: transparent;
-  text-decoration: none;
+.aboutTop__content p{
   color: white;
-  border: 1px solid white;
-  padding: 6px 18px;
-  border-radius: 7px;
-  font-size: 16px;
+  font-weight: 600;
 }
-.z-btn-transparent:hover {
-  background: white;
-  color: #1f1841;
-  border-color: white;
+.aboutTop__content p span{
+  margin: 10px;
+}
+.aboutTop__content p .span-1{
+  cursor: pointer;
 }
 
-.slider__shape img {
+
+.aboutTop__shape img {
   position: absolute;
 }
-.slider__shape img.triangle {
+.aboutTop__shape img.triangle {
   right: 28%;
   bottom: 38%;
   animation: triangle 5s linear 0s infinite alternate;
   -webkit-animation: triangle 5s linear 0s infinite alternate;
 }
-.slider__shape img.dotted-square {
+.aboutTop__shape img.dotted-square {
   right: 22%;
   bottom: 31%;
   animation: dottedSquare 8s linear 0s infinite alternate;
   -webkit-animation: dottedSquare 8s linear 0s infinite alternate;
 }
-.slider__shape img.solid-square {
+.aboutTop__shape img.solid-square {
   bottom: 19%;
   right: 25%;
   z-index: 1;
   animation: solidsquare 5s linear 0s infinite alternate;
   -webkit-animation: solidsquare 5s linear 0s infinite alternate;
 }
-.slider__shape img.circle {
+.aboutTop__shape img.circle {
   right: 10%;
   bottom: -47%;
-  height: 90vh;
-  animation: sliderCircle 7s linear 0s infinite alternate;
+  height: 50vh;
+  animation: aboutTopCircle 7s linear 0s infinite alternate;
 }
 
 @media (max-width: 575px) {
-  .slider__play {
+  .aboutTop__play {
     margin-top: 30px;
   }
 }
-.slider__play-btn {
+.aboutTop__play-btn {
   display: inline-block;
   width: 90px;
   height: 90px;
@@ -104,7 +98,7 @@
   border-radius: 50%;
   animation: pulse 2s infinite;
 }
-.slider__play-btn:hover {
+.aboutTop__play-btn:hover {
   background: white;
   color: #1f1841;
   border-color: white;
@@ -165,7 +159,7 @@
     -o-transform: translateY(100px);
   }
 }
-@keyframes sliderCircle {
+@keyframes aboutTopCircle {
   0% {
     transform: rotate(0);
     -webkit-transform: rotate(0);
@@ -183,29 +177,29 @@
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
-  .slider__content h1 {
+  .aboutTop__content h1 {
     font-size: 50px;
   }
 }
 @media only screen and (min-width: 576px) and (max-width: 767px) {
-  .slider__content h1 {
+  .aboutTop__content h1 {
     font-size: 40px;
   }
 }
 
 @media only screen and (min-width: 576px) and (max-width: 767px) {
-  .slider__height {
+  .aboutTop__height {
     min-height: 700px;
   }
 }
 @media (max-width: 575px) {
-  .slider__height {
+  .aboutTop__height {
     min-height: 600px;
   }
 }
 
 @media (max-width: 575px) {
-  .slider__content h1 {
+  .aboutTop__content h1 {
     font-size: 30px;
   }
 }
