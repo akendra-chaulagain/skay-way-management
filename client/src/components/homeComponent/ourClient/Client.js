@@ -9,11 +9,11 @@ const Client = () => {
     superLargeDesktop: {
       // the naming can be any, depends on you.
       breakpoint: { max: 4000, min: 3000 },
-      items: 5,
+      items: 4,
     },
     desktop: {
       breakpoint: { max: 3000, min: 1024 },
-      items: 5,
+      items: 6,
     },
     tablet: {
       breakpoint: { max: 1024, min: 768 },
@@ -48,7 +48,7 @@ const Client = () => {
                 {client.map((item) => (
                   <div
                     className="col-md-11 clientItem "
-                    // data-aos="fade-up"
+                  
                     // data-aos-duration="1200"
                     key={item._id}
                   >

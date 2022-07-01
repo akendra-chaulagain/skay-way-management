@@ -4,16 +4,14 @@
     url("https://images.pexels.com/photos/1181304/pexels-photo-1181304.jpeg?auto=compress&cs=tinysrgb&w=1460&h=1250&dpr=1");
   height: 100vh;
   width: 100%;
-   background-size: cover;
-    background-position: center;
-    position: relative;
+  background-size: cover;
+  background-position: center;
+  position: relative;
   display: flex;
   justify-content: center;
   align-items: center;
-   background-attachment: fixed;
+  background-attachment: fixed;
 }
-
-
 
 .about__thumb {
   position: relative;
@@ -44,7 +42,7 @@
 
 /* title */
 .section__title h2 {
-  font-size: 30px;
+  font-size: 28px;
   font-weight: 900;
   line-height: 1.1;
   color: white;

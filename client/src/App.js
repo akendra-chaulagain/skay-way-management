@@ -7,6 +7,8 @@ import About from "./components/homeComponent/aboutSection/About";
 import Slider from "./components/homeComponent/slider/Slider";
 import WhyUs from "./components/homeComponent/whyUs/WhyUs";
 import Client from "./components/homeComponent/ourClient/Client";
+import Map from "./components/homeComponent/Map/Map";
+import Footer from "./components/Footer/Footer";
 
 const App = () => {
   return (
@@ -17,7 +19,9 @@ const App = () => {
       <About />
       <WhyUs />
       <Client />
-      {/* <WorkSector /> */}
+      <WorkSector />
+      <Map />
+      <Footer/>
     </>
   );
 };

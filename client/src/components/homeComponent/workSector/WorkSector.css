@@ -1,36 +1,50 @@
 .sector {
-  
+  width: 100%;
+  height: 100vh;
+  background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7));
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .sectorTitle {
-  text-align: center;
-  font-size: 27px;
+  display: flex;
+  justify-content: center;
+  font-size: 25px;
   font-weight: 900;
   line-height: 1.1;
-  padding: 0px 0px 20px 0px;
-  color: #381fae;
+  color: white;
+  margin: 0px 0px 4vh 0vh;
 }
-.sectorWrapper{
-  width: 80%;
-  margin-left: 10%;
-  box-shadow: rgba(17, 17, 26, 0.05) 0px 1px 0px,
-    rgba(17, 17, 26, 0.1) 0px 0px 8px;
-  padding: 40px 80px 40px 80px;
+.sectorWrapper {
+  width: 90%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
 }
 
 .sector__item {
-  padding: 30px 0px 20px 0px;
- box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
   border-radius: 10px;
-  margin-top: 30px;
+  margin: 40px;
+  display: flex;
+  justify-content: center;
 }
 
-.sector__thumb img {
-  width: 240px;
-  height: 200px;
-  border-radius: 10px;
+.sector__thumb {
+  width: 150px;
+  height: 130px;
+  border: 3px solid #4636ff;
+  border-radius: 20px;
 }
-.sector__content h3 {
-  font-size: 18px;
-  margin-top: 20px;
-  font-weight: 600;
+.sector__thumb img {
+  width: 148px;
+  height: 128px;
+  border-radius: 20px;
+  padding: 3px 7px 6px 3px;
+}
+
+.sector__thumb h3 {
+  font-size: 17px;
+  margin-top: 10px;
+  color: white;
 }

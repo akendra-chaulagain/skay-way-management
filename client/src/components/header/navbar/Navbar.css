@@ -1,20 +1,21 @@
 .navbar {
   width: 100%;
   height: auto;
-  background-color: #321FAB;
+  background-color: #27159d;
   top: 0%;
   position: sticky;
   z-index: 99;
 }
 
-.navBarWrapper {
-  width: 70%;
-}
-/* nav bar brand} */
+
 .navbar-brand {
   color: white;
   font-weight: 600;
   font-size: 24px;
+}
+.navbar-brand img{
+  height: 10vh;
+  margin-left: 20%;
 }
 
 /* nav items */
@@ -79,8 +80,8 @@
   margin-right: 5%;
 }
 
-/* @media only screen and (max-width: 990px) {
-  .navbar {
-    display: none;
+@media only screen and (max-width: 1000px) {
+  .navBarWrapper {
+    width: 100%;
   }
-} */
+}

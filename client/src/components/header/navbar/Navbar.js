@@ -1,5 +1,6 @@
 import React from "react";
 import "./Navbar.css";
+import logo from "../../../assets/logo.png";
 
 const Navbar = () => {
   return (
@@ -8,7 +9,7 @@ const Navbar = () => {
         <div class="container navBarWrapper">
           {/* company logo */}
           <a class="navbar-brand" href="*">
-            SKY-WAY
+           <img src={logo} alt="" />
           </a>
           <button
             class="navbar-toggler"

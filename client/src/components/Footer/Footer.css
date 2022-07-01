@@ -1,0 +1,106 @@
+.footer {
+  /* background-color: gray; */
+  overflow: hidden;
+}
+.footerWrapper {
+  width: 90%;
+  margin-left: 5%;
+}
+
+/* left side  footer data */
+/* logo */
+.companyLogo img {
+  height: 10vh;
+}
+
+.leftSideFooterData p {
+  color: gray;
+  margin-top: 20px;
+  font-size: 16px;
+}
+
+/* footer middle content */
+.middleSideFooterData h5 {
+  color: gray;
+  font-size: 20px;
+}
+.footer li {
+  list-style: none;
+}
+.footerList li a {
+  text-decoration: none;
+  color: gray;
+  margin-top: 4px;
+}
+
+.footerList li a:hover {
+  color: #321fab;
+}
+/* right side data */
+.rightSideFooterData {
+  color: gray;
+}
+.rightSideFooterData h5 {
+  font-size: 20px;
+}
+.followUsIcon {
+  display: flex;
+}
+.followUsIcon i {
+  margin: 2px 10px 0px 10px;
+  font-size: 20px;
+  cursor: pointer;
+}
+.followUsIcon i:hover {
+  color: #321fab;
+}
+.copyright {
+  display: flex;
+  justify-content: center;
+}
+.copyright p {
+  font-size: 14px;
+}
+
+@media only screen and (max-width: 990px) {
+  .leftSideFooterData h5 {
+    font-size: 20px;
+  }
+
+  .leftSideFooterData p {
+    font-size: 15px;
+  }
+  .middleSideFooterData h5 {
+    font-size: 18px;
+  }
+
+  .footerList li a {
+    font-size: 16px;
+  }
+}
+@media only screen and (max-width: 520px) {
+  .leftSideFooterData h5 {
+    font-size: 19px;
+  }
+
+  .leftSideFooterData p {
+    font-size: 14px;
+  }
+  .middleSideFooterData h5 {
+    font-size: 17px;
+  }
+
+  .footerList li a {
+    font-size: 14px;
+  }
+}
+
+/* middle side container data with links */
+
+/* ==========================================
+    CUSTOM UTILS CLASSES
+  ========================================== */
+body,
+html {
+  height: 100%;
+}

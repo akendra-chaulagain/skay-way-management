@@ -4,12 +4,10 @@
     url("https://images.pexels.com/photos/1216544/pexels-photo-1216544.jpeg?auto=compress&cs=tinysrgb&w=1460&h=1250&dpr=1");
   height: 100vh;
   width: 100%;
-  background-repeat: no-repeat;
-  background-position: 100%;
+background-size: cover;
+  background-position: center;
   position: relative;
   background-color: #381fae;
-  height: 80vh;
-  width: 100%;
   overflow: hidden;
 }
 .about__shape {
@@ -26,7 +24,7 @@
 .slider__content {
   position: relative;
   z-index: 1;
-  margin-left: 10%;
+  margin-left: 5%;
 }
 .slider__content > span {
   color: white;
