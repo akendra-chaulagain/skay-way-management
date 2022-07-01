@@ -1,0 +1,30 @@
+.client {
+  background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)),
+    url("https://images.pexels.com/photos/3184465/pexels-photo-3184465.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+  height: 70vh;
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  background-attachment: fixed;
+}
+
+.clientWrapper {
+  width: 90%;
+  margin-left: 5%;
+}
+.clientTopBar {
+  display: flex;
+  justify-content: center;
+  padding: 10vh;
+  font-size: 30px;
+  font-weight: 900;
+  line-height: 1.1;
+  color: white;
+}
+.clientItem img {
+  height: 140px;
+  width: 140px;
+  object-fit: fill;
+  border-radius: 50%;
+}

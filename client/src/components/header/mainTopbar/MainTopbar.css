@@ -1,0 +1,49 @@
+.mainTopbar {
+  background-color: #321fab;
+  width: 100%;
+  top: 0;
+  z-index: 999;
+}
+
+/* left side contain */
+.leftSideMainTopBar {
+  height: 4.5vh;
+  display: flex;
+  align-items: center;
+  color: white;
+  padding-left: 15%;
+}
+.iconsItem {
+  margin: 0px 12px 0px 12px;
+  cursor: pointer;
+}
+.iconsItem i {
+  font-size: 13px;
+}
+
+/* right side contain data */
+.rightSidemainTopBar {
+  padding-right: 15.5%;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: end;
+}
+/* contact */
+.rightSideContact {
+  margin-right: 20px;
+  font-size: 12px;
+}
+.rightSideContact i {
+  margin-right: 4px;
+  font-size: 10px;
+}
+/* email */
+.rightSideEmail {
+  margin-right: 15px;
+  font-size: 13px;
+}
+.rightSideEmail i {
+  margin-right: 4px;
+  font-size: 11px;
+}
