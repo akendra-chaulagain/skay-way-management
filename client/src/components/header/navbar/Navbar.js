@@ -1,6 +1,7 @@
 import React from "react";
 import "./Navbar.css";
 import logo from "../../../assets/logo.png";
+import { Link } from "react-router-dom";
 
 const Navbar = () => {
   return (
@@ -8,68 +9,56 @@ const Navbar = () => {
       <nav class="navbar navbar-expand-lg">
         <div class="container navBarWrapper">
           {/* company logo */}
-          <a class="navbar-brand" href="*">
+          <Link className="link" to="/" class="navbar-brand" href="*">
             <img src={logo} alt="" />
-          </a>
-          <button
-            class="navbar-toggler"
-            type="button"
-            data-bs-toggle="collapse"
-            data-bs-target="#navbarSupportedContent"
-            aria-controls="navbarSupportedContent"
-            aria-expanded="false"
-            aria-label="Toggle navigation"
-          >
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav ms-auto">
-              {/* home page */}
-              <li class="nav-item">
-                <a class="nav-link link" href="/">
-                  Home
-                </a>
-              </li>
-              {/* why us */}
-              <li class="nav-item dropdown">
-                <a class="nav-link link  dropbtn" href="/shop">
-                  Documentation
-                </a>
+          </Link>
 
-                <div className="dropdown-content">
-                  <a href="/women_cloth">Demand Letter </a>
-                  <a href="/man_cloth">Employment Contract </a>
-                  <a href="/kids_cloth">Gurantee Letter </a>
-                  <a href="/jewelry">Mobilization Agreement </a>
-                  <a href="/luxury_bag">Power Of Attornity </a>
-                </div>
-              </li>
+          <ul class="navbar-nav ms-auto">
+            {/* home page */}
+            <li class="nav-item">
+              <Link className="nav-link  link" to="/">
+                Home
+              </Link>
+            </li>
+            <li class="nav-item">
+              <Link className=" nav-link  link" to="/about">
+                About Us
+              </Link>
+            </li>
 
-              <li class="nav-item">
-                <a class="nav-link link" href="/sale">
-                  Why Us
-                </a>
-              </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link link  dropbtn" href="/shop">
+                Documentation
+              </a>
 
-              <li class="nav-item">
-                <a class="nav-link link" href="/aboutus">
-                  About Us
-                </a>
-              </li>
+              <div className="dropdown-content">
+                <a href="/women_cloth">Demand Letter </a>
+                <a href="/man_cloth">Employment Contract </a>
+                <a href="/kids_cloth">Gurantee Letter </a>
+                <a href="/jewelry">Mobilization Agreement </a>
+                <a href="/luxury_bag">Power Of Attornity </a>
+              </div>
+            </li>
 
-              <li class="nav-item">
-                <a class="nav-link link" href="/blog">
-                  Services
-                </a>
-              </li>
+            {/* post resume */}
+            <li class="nav-item">
+              <Link className="nav-link  link" to="/post_resume">
+                Post Resume
+              </Link>
+            </li>
 
-              <li class="nav-item">
-                <a class="nav-link link" href="/contact">
-                  Contact Us
-                </a>
-              </li>
-            </ul>
-          </div>
+            <li class="nav-item">
+              <Link  className="nav-link  link" to="/services">
+                Services
+              </Link>
+            </li>
+
+            <li class="nav-item">
+              <a className="nav-link  link" href="/contact">
+                Contact Us
+              </a>
+            </li>
+          </ul>
         </div>
       </nav>
     </>

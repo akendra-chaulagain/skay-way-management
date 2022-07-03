@@ -1,0 +1,97 @@
+.team {
+  height: auto;
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-attachment: fixed;
+  flex-direction: column;
+  background-color: #4d5061;
+  padding: 8vh;
+  overflow: hidden;
+}
+.teamTitle {
+  display: flex;
+  justify-content: center;
+  font-size: 28px;
+  font-weight: 900;
+  margin: 0px 0px 20px 0px;
+  color: white;
+}
+
+.card_body {
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  background-color: rgba(4, 9, 30, 0.7);
+  height: 330px;
+  width: 330px;
+  border-radius: 5px;
+}
+.team_img {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+.team_img img {
+  height: 200px;
+  width: 200px;
+  border-radius: 10px;
+  margin: 20px 40px 4px 40px;
+}
+
+.teamContainer h5 {
+  color: white;
+}
+.teamContainer p {
+  color: white;
+}
+
+@media only screen and (max-width: 990px) {
+  .team {
+    padding: 5vh 0vh 8vh 0vh;
+    width: 100%;
+    overflow: hidden;
+  }
+  .card_body {
+    height: 330px;
+    width: 230px;
+    border-radius: 5px;
+  }
+}
+@media only screen and (max-width: 778px) {
+  .team {
+    overflow: hidden;
+  }
+  .teamTitle h2 {
+    font-size: 23px;
+    margin-top: 10px;
+  }
+  .card_body {
+    height: 250px;
+    width: 200px;
+    border-radius: 5px;
+  }
+  .team_img img {
+    height: 150px;
+    width: 150px;
+    margin: 10px 40px 10px 40px;
+  }
+  .teamContainer h5 {
+    font-size: 17px;
+  }
+  .teamContainer p {
+    font-size: 14px;
+  }
+}
+@media only screen and (max-width: 576px) {
+  .card_body {
+    height: 250px;
+    width: 96%;
+    margin-left: 2%;
+  }
+}
+

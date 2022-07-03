@@ -27,9 +27,11 @@
 .nav-item a {
   color: white;
   font-size: 17px;
+  text-decoration: none;
 }
 .nav-item a:hover {
-  color: black;
+  color: white;
+  
 }
 
 /* shop dropdown */
@@ -64,10 +66,7 @@
   font-size: 14px;
   margin: 15px;
 }
-.dropdown-content a:hover {
-  font-size: 15px;
-  transition: 0.5s;
-}
+
 .dropdown:hover .dropdown-content {
   display: block;
 }
@@ -75,5 +74,8 @@
 @media only screen and (max-width: 1000px) {
   .navBarWrapper {
     width: 100%;
+  }
+  .navbar{
+    display: none;
   }
 }

@@ -1,0 +1,56 @@
+.stats {
+  height: auto;
+  /* background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)),
+    url("https://images.pexels.com/photos/1181304/pexels-photo-1181304.jpeg?auto=compress&cs=tinysrgb&w=1460&h=1250&dpr=1"); */
+  background-size: cover;
+  background-color: #505364;
+  background-position: center;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-attachment: fixed;
+  overflow: hidden;
+  padding: 2vh 0vh 8vh 0vh;
+}
+
+.statsWrapper {
+  width: 100%;
+}
+.countainerContainer {
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  background-color: rgba(4, 9, 30, 0.7);
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  color: white;
+  padding: 20px;
+  border-radius: 5px;
+  margin-left: 6.8%;
+}
+.countainerContainer span {
+  font-size: 30px;
+  font-weight: 600;
+  margin: 10px;
+  letter-spacing: 4px;
+}
+.countainerContainer h3 {
+  font-size: 24px;
+  font-weight: 600;
+}
+
+@media only screen and (max-width: 990px) {
+ 
+  /* .countainerContainer {
+    width: 100%;
+    margin-left: 0%;
+    margin-top: 20px;
+  } */
+}
+
+@media only screen and (max-width: 768px) {
+  .countainerContainer {
+    margin-left: 0%;
+  }
+}

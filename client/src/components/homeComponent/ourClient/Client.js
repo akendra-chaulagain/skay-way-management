@@ -17,48 +17,43 @@ const Client = () => {
     },
     tablet: {
       breakpoint: { max: 1024, min: 768 },
-      items: 3,
+      items: 4,
     },
     mobilel: {
       breakpoint: { max: 768, min: 464 },
-      items: 2,
+      items: 4,
     },
     mobile: {
       breakpoint: { max: 464, min: 0 },
-      items: 2,
+      items: 3,
     },
   };
 
   return (
     <>
-      <div className="container-fluid client">
-       
-          <div className="clientTopBar"> OUR CLIENTS</div>
+      <div className="containe-fluid client">
+        <div className="clientTopBar">Our Clients</div>
+        <div className="clientWrapper">
           <div className="row">
-            <div>
-              <Carousel
-                responsive={responsive}
-                infinite={true}
-                autoPlaySpeed={2000}
-                autoPlay={true}
-                keyBoardControl={true}
-                ssr={true}
-                arrows={false}
-              >
-                {client.map((item) => (
-                  <div
-                    className="col-md-11 clientItem "
-                  
-                    // data-aos-duration="1200"
-                    key={item._id}
-                  >
-                    <img src={item.img} alt="" />
+            <Carousel
+              responsive={responsive}
+              arrows={false}
+              showDots={false}
+              dotListClass="custom-dot-list-style"
+              containerClass="carousel-container"
+            >
+              {client.map((item) => (
+                <div class="col-md-11">
+                  <div class="clientCard active p-3 text-center px-4">
+                    <div class="userClient_content">
+                      <img src={item.img} alt="" />
+                    </div>
                   </div>
-                ))}
-              </Carousel>
-            </div>
+                </div>
+              ))}
+            </Carousel>
           </div>
-      
+        </div>
       </div>
     </>
   );

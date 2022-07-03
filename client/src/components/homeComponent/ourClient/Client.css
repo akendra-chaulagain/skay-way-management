@@ -1,8 +1,7 @@
 .client {
-  background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)),
-    url("https://images.pexels.com/photos/3184465/pexels-photo-3184465.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
-  height: 70vh;
+  height: auto;
   width: 100%;
+  /* margin-bottom: 8vh; */
   background-size: cover;
   background-position: center;
   position: relative;
@@ -10,24 +9,75 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-direction: column;
+  background-color: #505364;
+  padding: 8vh;
+}
+.clientWrapper {
+  width: 100%;
 }
 
-.clientWrapper {
-  width: 94%;
-  margin-left: 3%;
-}
 .clientTopBar {
   display: flex;
   justify-content: center;
-  font-size: 25px;
+  font-size: 28px;
   font-weight: 900;
-  line-height: 1.1;
+  margin: 0px 0px 20px 0px;
   color: white;
-  margin: 0px 0px 10vh 0vh;
 }
-.clientItem img {
-  height: 130px;
-  width: 130px;
-  object-fit: fill;
+
+.userClient_content img {
+  height: 120px;
+  width: 120px;
   border-radius: 50%;
+}
+
+/* dots */
+.carousel-container {
+  padding-bottom: 30px;
+}
+@media only screen and (max-width: 990px) {
+  .client {
+    padding: 8vh 0vh 8vh 0vh;
+  }
+  .clientTopBar {
+    font-size: 23px;
+  }
+  .userClient_content img {
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .userClient_content img {
+    height: 70px;
+    width: 70px;
+  }
+}
+
+@media only screen and (max-width: 470px) {
+  .clientTopBar {
+    font-size: 21px;
+  }
+  .user-image img {
+    height: 50px;
+    width: 50px;
+  }
+  .clientCard {
+    margin: 20px 12px 20px 0px;
+  }
+  .userClient_content h5 {
+    font-size: 14px;
+  }
+  .userClient_content h6 {
+    font-size: 12px;
+  }
+  .userClient_content p {
+    font-size: 11px;
+  }
+  .clientCard .ratings i {
+    font-size: 10px;
+  }
 }

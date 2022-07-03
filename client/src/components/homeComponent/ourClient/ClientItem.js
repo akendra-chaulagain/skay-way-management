@@ -1,5 +1,4 @@
 export const client = [
-  
   {
     id: "1",
     img: "https://images.pexels.com/photos/3727509/pexels-photo-3727509.jpeg?auto=compress&cs=tinysrgb&w=600",

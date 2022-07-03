@@ -1,7 +1,6 @@
 import React from "react";
 import AboutInfo from "../../components/aboutContainer/AboutInfo/AboutInfo";
 import AboutSlider from "../../components/aboutContainer/aboutSlider/AboutSlider";
-import Team from "../../components/aboutContainer/team/Team";
 import Footer from "../../components/Footer/Footer"
 import "./AboutUs.css";
 
@@ -16,8 +15,7 @@ const AboutUs = () => {
           </div>
           {/* about us info */}
           <AboutInfo />
-          {/* team */}
-          <Team/>
+       
           {/* footer */}
           <Footer/>
         </div>

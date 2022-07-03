@@ -1,0 +1,48 @@
+.message {
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+  background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7));
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.messageWrapper {
+  width: 90%;
+}
+.messageImg {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.messageImg img {
+  height: 300px;
+  width: 300px;
+  border-radius: 10px;
+}
+.messageImg p {
+  color: white;
+  font-size: 18px;
+  font-weight: 600;
+  margin-top: 10px;
+}
+.messagename {
+  color: white;
+  display: flex;
+  justify-content: center;
+  font-size: 17px;
+  font-weight: 600;
+  margin: 20px;
+}
+
+/* message content */
+.messageContent {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.messageContent p {
+  color: white;
+  font-size: 14px;
+}

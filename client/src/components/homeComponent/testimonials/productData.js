@@ -1,0 +1,58 @@
+export const testomonials = [
+  {
+    id: "1",
+    img: "https://risingtheme.com/html/demo-suruchi-v1/suruchi/assets/img/product/product10.png",
+    name: "Akendra Chaulagain",
+    title: "Developert",
+    desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+  },
+  {
+    id: "2",
+    img: "https://risingtheme.com/html/demo-suruchi-v1/suruchi/assets/img/product/product13.png",
+    name: "Akendra Chaulagain",
+    title: "Backend Developer",
+    desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+  },
+  {
+    id: "3",
+    img: "https://risingtheme.com/html/demo-suruchi-v1/suruchi/assets/img/product/product8.png",
+    name: "Akendra Chaulagain",
+    title: "Frontend Developer",
+    desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+  },
+  {
+    id: "4",
+    img: "https://risingtheme.com/html/demo-suruchi-v1/suruchi/assets/img/product/product15.png",
+    name: "Akendra Chaulagain",
+    title: "Laravel Developer",
+    desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+  },
+  {
+    id: "5",
+    img: "https://risingtheme.com/html/demo-suruchi-v1/suruchi/assets/img/product/product1.png",
+    name: "Akendra Chaulagain",
+    title: "Manager",
+    desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+  },
+  {
+    id: "6",
+    img: "https://risingtheme.com/html/demo-suruchi-v1/suruchi/assets/img/product/product4.png",
+    name: "Akendra Chaulagain",
+    title: "Marketing",
+    desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+  },
+  {
+    id: "7",
+    img: "https://risingtheme.com/html/demo-suruchi-v1/suruchi/assets/img/product/product11.png",
+    name: "Akendra Chaulagain",
+    title: "Developer",
+    desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+  },
+  {
+    id: "8",
+    img: "https://risingtheme.com/html/demo-suruchi-v1/suruchi/assets/img/product/product7.png",
+    name: "Akendra Chaulagain",
+    title: "Designer",
+    desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+  },
+];

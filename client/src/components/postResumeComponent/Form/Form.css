@@ -1,0 +1,96 @@
+.resumeForm {
+  width: 100%;
+  height: auto;
+  margin-top: 5vh;
+  padding-bottom: 10vh;
+}
+.postResumeTitle {
+  display: flex;
+  justify-content: center;
+  font-weight: 600;
+  font-size: 27px;
+}
+.container-wrapper {
+  width: 84%;
+  margin-left: 8%;
+}
+.container-wrapper h3 {
+  font-size: 20px;
+  margin-top: 20px;
+  font-weight: 600;
+}
+
+/* country applied for */
+.inputItem input {
+  width: 100%;
+  outline-color: blue;
+  border-radius: 5px;
+  padding: 4px 10px;
+  border: none;
+  border: 1px solid gray;
+}
+.inputItem label {
+  font-size: 14px;
+  margin-top: 10px;
+}
+
+.personaldetailtext {
+  font-size: 18px;
+  margin-top: 15px;
+  font-weight: 600;
+}
+.inputItem textarea {
+  width: 100%;
+  height: 35px;
+  border-radius: 5px;
+  padding: 4px 10px;
+  outline-color: blue;
+}
+.inputItemSelect select {
+  width: 20%;
+  padding: 4px 10px;
+  border: none;
+  border: 1px solid gray;
+  border-radius: 5px;
+}
+.photoInputText label {
+  font-size: 14px;
+  margin-top: 10px;
+}
+
+/* language experience */
+.languageExp h3 {
+  font-size: 18px;
+  margin-top: 20px;
+  font-weight: 600;
+}
+.languagename {
+  
+  font-weight: 600;
+  font-size: 15px;
+  margin-top: 22px;
+}
+.languageItem label {
+  font-size: 12px;
+}
+.languageItem select {
+  width: 100%;
+  padding: 3px 2px;
+  border: none;
+  border: 1px solid gray;
+  border-radius: 5px;
+  font-size: 12px;
+}
+
+
+/* education */
+.educationTitle{
+    font-size: 18px;
+  margin-top: 20px;
+  font-weight: 600;
+}
+.educationWrapper{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+}

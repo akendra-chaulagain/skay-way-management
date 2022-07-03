@@ -1,0 +1,48 @@
+.roadMap {
+  width: 100%;
+  height: auto;
+  background-color: #4f5263;
+}
+.roadMapWrapper {
+  padding: 10vh 0vh 10vh 0vh; 
+  width: 94%;
+  margin-left: 3%;
+}
+.roadMapTitle {
+  display: flex;
+  justify-content: center;
+  display: flex;
+  justify-content: center;
+  font-size: 25px;
+  font-weight: 900;
+  color: white;
+  margin: 0vh 0vh 7vh 0vh;
+}
+.roadMapNumber img{
+    height: 100vh;
+}
+
+.roadMapContent {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+.roadMapNumber {
+  height: 40px;
+  width: 40px;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  font-weight: 600;
+  font-size: 18px;
+  border: 3px solid #27159D;
+}
+.roadMapContent p {
+  color: white;
+  font-size: 10px;
+  margin-top: 18px;
+  font-weight: 600;
+}

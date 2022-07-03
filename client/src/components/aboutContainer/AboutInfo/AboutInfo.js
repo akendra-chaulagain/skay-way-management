@@ -1,5 +1,5 @@
 import React from "react";
-import { member } from "../team/TeamMember";
+// import { member } from "../team/TeamMember";
 import "./AboutInfo.css";
 
 
