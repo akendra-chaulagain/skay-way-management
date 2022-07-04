@@ -1,0 +1,127 @@
+.jobsContent {
+  height: auto;
+  width: 100%;
+  padding: 8vh;
+  background-color: #1C3054;
+}
+
+.jobsContentTopbar h1 {
+  font-size: 28px;
+  font-weight: 700;
+  margin-bottom: 25px;
+  letter-spacing: 1px;
+  color: white;
+}
+
+.jobsContentContainer {
+  display: flex;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  background-color: rgba(4, 9, 30, 0.7);
+  border-radius: 5px;
+  height: auto;
+  margin-top: 10px;
+  width: 22%;
+  margin-left: 3%;
+  align-items: center;
+}
+.jobdeschData {
+  margin-left: 8px;
+  margin: 20px 0px 0px 10px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  color: white;
+}
+.jobdeschData h6 {
+  cursor: pointer;
+  margin-top: 0px;
+  font-weight: 700;
+  color: white;
+  font-size: 23px;
+}
+.jobdeschData p {
+  font-size: 16px;
+  font-weight: 500;
+  color: white;
+}
+
+/* view all link */
+.viewAllLinks {
+  margin-top: 20px;
+  display: flex;
+  justify-content: flex-end;
+}
+.viewAllLinks .fa-eye {
+  margin-right: 5px;
+  margin-top: 4px;
+  font-size: 14px;
+  color: white;
+}
+.viewAllLinks p {
+  font-size: 14px;
+  font-weight: 600;
+  color: white;
+}
+.viewAllLinks p:hover {
+  text-decoration: underline;
+  color: blue;
+}
+@media only screen and (max-width: 1000px) {
+  .jobsContentContainer {
+    margin-top: 0vh;
+    height: auto;
+  }
+  .jobsContentTopbar h1 {
+    font-size: 22px;
+    margin-top: 30px;
+  }
+  .jobdeschData h6 {
+    font-size: 12px;
+    font-weight: 500;
+  }
+  .jobdeschData p {
+    font-size: 13px;
+    font-weight: 400;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .jobsContent {
+    overflow: hidden;
+  }
+  .jobsContentTopbar h1 {
+    font-size: 20px;
+  }
+  .jobsContentContainer {
+    width: 100%;
+    margin-top: 7px;
+    height: auto;
+    margin-left: 0%;
+  }
+
+  .jobdeschData h6 {
+    cursor: pointer;
+    font-size: 13px;
+    font-weight: 500;
+  }
+  .jobdeschData p {
+    font-size: 12px;
+  }
+  .viewAllLinks .fa-eye {
+    font-size: 12px;
+  }
+  .viewAllLinks p {
+    font-size: 12px;
+  }
+}
+@media only screen and (max-width: 400px) {
+  .jobsImg img {
+    height: 5vh;
+  }
+  .jobdeschData h6 {
+    font-size: 12px;
+  }
+  .jobdeschData p {
+    font-size: 10px;
+  }
+}

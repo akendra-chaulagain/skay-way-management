@@ -6,14 +6,21 @@ const RoadMap = () => {
   return (
     <div className="container-fluid roadMap">
       <div className="roadMapWrapper">
-        <div className="roadMapTitle">Standard Operating Procedure</div>
-        <div className="row">
-          {roadMap.map((item) => (
-            <div className="col-md-2 roadMapContent" key={item._id}>
-              <div className="roadMapNumber">{item.num}</div>
-              <p>{item.title} </p>
-            </div>
-          ))}
+        <div className="roadMapTitle">Operating Procedure</div>
+        <div className="roadMapWrapper">
+          <div className="row ">
+            {roadMap.map((item) => (
+              <div className="col-lg-2 col-md-4 col-sm-4 col-12 mt-3  roadMapContainer">
+                <div className=" roadMapData">
+                  <span>
+                    <i className="fa-solid fa-check"></i>
+                    <div className="top-left">step {item.num}</div>
+                  </span>
+                  <p>{item.title}</p>
+                </div>
+              </div>
+            ))}
+          </div>
         </div>
       </div>
     </div>

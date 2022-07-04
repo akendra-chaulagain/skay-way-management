@@ -23,7 +23,7 @@
 .testimonialsTopBar {
   display: flex;
   justify-content: center;
-  font-size: 28px;
+  font-size: 30px;
   font-weight: 900;
   margin: 0px 0px 20px 0px;
   color: white;
@@ -41,13 +41,13 @@
 .user-content h5 {
   font-weight: 600;
   margin: 10px 0px 3px 0px;
-  font-size: 22px;
+  font-size: 23px;
   color: white;
 }
 
 .user-content p {
   margin-top: 5px;
-  font-size: 14px;
+  font-size: 16px;
   color: white;
 }
 
@@ -56,15 +56,13 @@
   padding-bottom: 30px;
 }
 @media only screen and (max-width: 990px) {
-  .testimonials{
+  .testimonials {
     padding: 8vh 0vh 8vh 0vh;
-
   }
   .testimonialsTopBar {
     font-size: 22px;
   }
 
-  
   .user-content h5 {
     font-size: 15px;
   }

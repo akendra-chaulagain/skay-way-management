@@ -7,9 +7,9 @@ const Navbar = () => {
   return (
     <>
       <nav class="navbar navbar-expand-lg">
-        <div class="container navBarWrapper">
+        <div class="container-fluid navBarWrapper">
           {/* company logo */}
-          <Link className="link" to="/" class="navbar-brand" href="*">
+          <Link className="link" to="/" class="navbar-brand">
             <img src={logo} alt="" />
           </Link>
 
@@ -48,7 +48,7 @@ const Navbar = () => {
             </li>
 
             <li class="nav-item">
-              <Link  className="nav-link  link" to="/services">
+              <Link className="nav-link  link" to="/services">
                 Services
               </Link>
             </li>

@@ -3,7 +3,7 @@
   /* background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)),
     url("https://images.pexels.com/photos/1181304/pexels-photo-1181304.jpeg?auto=compress&cs=tinysrgb&w=1460&h=1250&dpr=1"); */
   background-size: cover;
-  background-color: #505364;
+  background-color: #1C3054;
   background-position: center;
   position: relative;
   display: flex;
@@ -41,16 +41,24 @@
 }
 
 @media only screen and (max-width: 990px) {
- 
-  /* .countainerContainer {
-    width: 100%;
-    margin-left: 0%;
-    margin-top: 20px;
-  } */
+  .countainerContainer span {
+    font-size: 28px;
+    margin: 10px;
+  }
+  .countainerContainer h3 {
+    font-size: 22px;
+  }
 }
 
 @media only screen and (max-width: 768px) {
   .countainerContainer {
     margin-left: 0%;
+    margin-top: 20px;
+  }
+   .countainerContainer span {
+    font-size: 25px;
+  }
+  .countainerContainer h3 {
+    font-size: 20px;
   }
 }

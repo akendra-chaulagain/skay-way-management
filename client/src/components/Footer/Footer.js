@@ -7,7 +7,7 @@ const Footer = () => {
     <>
       <div class="d-flex flex-column footer">
         <footer class="w-100 py-4 flex-shrink-0 footerWrapper">
-          <div class="container py-4">
+          <div class="container-fluid py-4">
             <div class="row gy-4 gx-5">
               {/* left side data */}
               <div class="col-lg-4 col-md-6 leftSideFooterData">
@@ -25,7 +25,7 @@ const Footer = () => {
                 <h5 class=" mb-3">Links</h5>
                 <ul class="footerList">
                   <li>
-                    <a href="*">Why Us</a>
+                    <a href="/">Why Us</a>
                   </li>
                   <li>
                     <a href="/cart">Contact</a>

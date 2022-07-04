@@ -1,17 +1,15 @@
 .navbar {
   width: 100%;
   height: auto;
-  background-color: #27159d;
+  background-color: white;
   top: 0%;
   position: sticky;
   z-index: 99;
 }
-
-.navbar-brand {
-  color: white;
-  font-weight: 600;
-  font-size: 24px;
+.navBarWrapper {
+  padding: 0vh 9vh 0vh 9vh;
 }
+
 .navbar-brand img {
   height: 9vh;
 }
@@ -25,13 +23,13 @@
   margin-left: 8px;
 }
 .nav-item a {
-  color: white;
-  font-size: 17px;
+  color: #100135;
+  font-size: 18px;
   text-decoration: none;
+  font-weight: 600;
 }
 .nav-item a:hover {
-  color: white;
-  
+  color: black;
 }
 
 /* shop dropdown */
@@ -49,7 +47,7 @@
   height: auto;
   display: none;
   position: absolute;
-  background-color: rgb(128, 128, 244);
+  background-color: white;
   min-width: 30vh;
   box-shadow: 0px 1px 12px 5px rgba(0, 0, 0, 0.13);
   z-index: 1;
@@ -60,7 +58,7 @@
 }
 
 .dropdown-content a {
-  color: white;
+  color: black;
   text-decoration: none;
   display: block;
   font-size: 14px;
@@ -70,12 +68,14 @@
 .dropdown:hover .dropdown-content {
   display: block;
 }
+@media only screen and (max-width: 1300px) {
+  .navbar-brand img {
+    height: 5vh;
+  }
+}
 
 @media only screen and (max-width: 1000px) {
-  .navBarWrapper {
-    width: 100%;
-  }
-  .navbar{
+  .navbar {
     display: none;
   }
 }

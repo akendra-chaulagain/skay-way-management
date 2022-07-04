@@ -1,8 +1,7 @@
 .sector {
- 
  background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)),
     url("https://images.pexels.com/photos/1181304/pexels-photo-1181304.jpeg?auto=compress&cs=tinysrgb&w=1460&h=1250&dpr=1");
-  height: 110vh;
+  height: auto;
   width: 100%;
   background-size: cover;
   background-position: center;
@@ -12,20 +11,19 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  padding: 8vh;
 }
 .sectorTitle {
   display: flex;
   justify-content: center;
-  font-size: 25px;
+  font-size: 28px;
   font-weight: 900;
   line-height: 1.1;
   color: white;
   margin: 0px 0px 4vh 0vh;
 }
 .sectorWrapper {
-  width: 94%;
-  margin-left: 3%;
- 
+  width: 100%;
 }
 
 .sector__item {
@@ -49,7 +47,19 @@
 }
 
 .sector__thumb h3 {
-  font-size: 17px;
+  font-size: 18px;
   margin-top: 10px;
   color: white;
+}
+
+@media only screen and (max-width: 778px) {
+  .sectorTitle{
+    font-size: 22px;
+  }
+
+}
+@media only screen and (max-width: 567px) {
+  .sectorItemContainer{
+    width: 100%;
+  }
 }

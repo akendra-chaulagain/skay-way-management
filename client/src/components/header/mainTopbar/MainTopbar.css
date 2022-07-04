@@ -1,8 +1,9 @@
 .mainTopbar {
-  background-color: #27159D;
+  background-color: #1c3054;
   width: 100%;
   top: 0;
   z-index: 999;
+  padding: 0vh 8vh 0vh 8vh;
 }
 
 /* left side contain */
@@ -11,19 +12,18 @@
   display: flex;
   align-items: center;
   color: white;
-  padding-left: 15%;
 }
 .iconsItem {
   margin: 0px 12px 0px 12px;
   cursor: pointer;
 }
 .iconsItem i {
-  font-size: 13px;
+  font-size: 15px;
 }
 
 /* right side contain data */
 .rightSidemainTopBar {
-  padding-right: 15.5%;
+  /* padding-right: 15.5%; */
   color: white;
   display: flex;
   align-items: center;
@@ -32,24 +32,24 @@
 /* contact */
 .rightSideContact {
   margin-right: 20px;
-  font-size: 12px;
+  font-size: 15px;
 }
 .rightSideContact i {
   margin-right: 4px;
-  font-size: 10px;
+  font-size: 13px;
 }
 /* email */
 .rightSideEmail {
   margin-right: 15px;
-  font-size: 13px;
+  font-size: 15px;
 }
 .rightSideEmail i {
   margin-right: 4px;
-  font-size: 11px;
+  font-size: 15px;
 }
 
 @media only screen and (max-width: 1000px) {
-  .mainTopbar{
+  .mainTopbar {
     display: none;
   }
 }

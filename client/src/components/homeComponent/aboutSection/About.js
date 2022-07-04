@@ -4,14 +4,11 @@ import "./About.css";
 const About = () => {
   return (
     <>
-      <section class="about__area pb-200 pt-100">
+      <section class="about__area ">
         <div class="container aboutWrapper">
           <div class="row">
             <div class=" col-md-6 col-xs-12">
-              <div
-                class="about__thumb m-img wow fadeInLeft"
-                data-wow-delay=".2s"
-              >
+              <div class="about__thumb">
                 <img
                   className="imageOne"
                   src="https://images.pexels.com/photos/927022/pexels-photo-927022.jpeg?auto=compress&cs=tinysrgb&w=600"
@@ -20,11 +17,11 @@ const About = () => {
               </div>
             </div>
             <div
-              class=" col-md-5 aboutDataText"
+              class=" col-md-5 col-xs-12 aboutDataText"
               // data-aos="flip-left"
               // data-aos-duration="1500"
             >
-              <div class="about__content wow fadeInRight" data-wow-delay=".4">
+              <div class="about__content">
                 <div class="abouitsection__title">
                   <h2>ABOUT US</h2>
                 </div>

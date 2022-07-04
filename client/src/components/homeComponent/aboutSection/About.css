@@ -25,11 +25,11 @@
   font-size: 30px;
   font-weight: 900;
   line-height: 1.1;
-  color: white;
+  color: whitesmoke;
 }
 
 .about__content p {
-  font-size: 16px;
+  font-size: 18px;
   line-height: 26px;
   color: white;
 }
@@ -69,7 +69,7 @@
     font-size: 14px;
   }
 }
-@media only screen and (max-width: 778px) {
+@media only screen and (max-width: 768px) {
   .about__area {
     padding: 0vh;
     width: 100%;

@@ -7,14 +7,11 @@ const WorkSector = () => {
     <>
       <div className="container-fluid sector">
         <div className="sectorWrapper">
-          <div className="sectorTitle">SECTOR WE WORK FOR</div>
+          <div className="sectorTitle">Sector we Work For</div>
           <div className="row">
             {sector.map((item) => (
-              <div class="col-xl-2 col-lg-3 col-md-6">
-                <div
-                  class="sector__item p-relative text-center fix mb-30 wow fadeInUp"
-                  data-wow-delay=".4s"
-                >
+              <div class="col-xl-2 col-lg-3 col-md-3 col-sm-4  sectorItemContainer">
+                <div class="sector__item  text-center " data-wow-delay=".4s">
                   <div class="sector__thumb mb-25">
                     {/* 240*200 */}
                     <img src={item.img} alt="sector" />
@@ -31,3 +28,4 @@ const WorkSector = () => {
 };
 
 export default WorkSector;
+ 

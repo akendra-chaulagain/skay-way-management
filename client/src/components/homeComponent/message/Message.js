@@ -8,14 +8,14 @@ const Messange = () => {
         <div className="messageWrapper">
           <div className="row">
             {/* messagfe from chairman */}
-            <div className=" col-md-6 messageImg">
+            <div className="col-lg-6 col-md-6 messageImg">
               <img
                 src="https://images.pexels.com/photos/1121796/pexels-photo-1121796.jpeg?auto=compress&cs=tinysrgb&w=600"
-                alt=""
+                alt="Img_message"
               />
               <p>Bhupendra Kumar Kadariya</p>
             </div>
-            <div className="col-md-6 messageContent">
+            <div className="col-lg-6 col-md-6 messageContent">
               <div className="messagename">Message From Chairman</div>
               <p>
                 Dear Valued Clients and Associates <br /> Greeting From SKY WAY
@@ -32,7 +32,7 @@ const Messange = () => {
                 address for the best
               </p>
             </div>
-            <div className=" col-md-6 messageContent">
+            <div className=" col-md-6 messageContent mt-5">
               <div className="messagename">Message From Managing Director</div>
 
               <p>
@@ -50,7 +50,7 @@ const Messange = () => {
                 address for the best
               </p>
             </div>
-            <div className="col-md-6 messageImg">
+            <div className="col-md-6 messageImg ">
               <img
                 src="https://images.pexels.com/photos/1121796/pexels-photo-1121796.jpeg?auto=compress&cs=tinysrgb&w=600"
                 alt=""

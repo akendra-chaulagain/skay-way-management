@@ -27,7 +27,7 @@ const Testimonials = () => {
 
   return (
     <>
-      <div className="containe-fluid testimonials">
+      <div className=" testimonials">
         <div className="testimonialsTopBar">Our Clients Say</div>
         <div className="testomonialsWrapper">
           <div className="row">

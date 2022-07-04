@@ -10,19 +10,21 @@ import Messange from "../../components/homeComponent/message/Message";
 import Testimonials from "../../components/homeComponent/testimonials/Testimonials";
 import RoadMap from "../../components/homeComponent/roadMap/RoadMap";
 import Stats from "../../components/homeComponent/stats/Stats";
+import JobsSection from "../../components/homeComponent/jobsSection/JobsSection";
 
 const Home = () => {
   return (
     <>
       <Slider />
       <About />
-      {/* <Messange /> */}
+      <Messange />
       <Team />
       <RoadMap />
       <Testimonials />
       <Client />
-      <Stats/>
+      <Stats />
       <WorkSector />
+      <JobsSection />
       <Map />
       <Footer />
     </>

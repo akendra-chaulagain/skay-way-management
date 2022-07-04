@@ -8,53 +8,49 @@ import triangle4 from "../../../assets/images/slider/circle.png";
 const Slider = () => {
   return (
     <>
-      <section class="slider__area">
-        <div class="slider-active">
-          <div class="single-slider slider__height d-flex align-items-center">
-            <div class="slider__shape">
-              <img class="shape triangle" src={triangle} alt="triangle" />
+      <div className=" slider__area">
+        <div className="slider-active sliderWrapper">
+          <div className="single-slider slider__height d-flex align-items-center">
+            <div className="slider__shape">
+              <img className="shape triangle" src={triangle} alt="triangle" />
               <img
-                class="shape dotted-square"
+                className="shape dotted-square"
                 src={triangle2}
                 alt="dotted-square"
               />
               <img
-                class="shape solid-square"
+                className="shape solid-square"
                 src={triangle3}
                 alt="solid-square"
               />
-              <img class="shape circle" src={triangle4} alt="circle" />
+              <img className="shape circle" src={triangle4} alt="circle" />
             </div>
             <div
-              class="container sliderContent"
+              className="container-fluid sliderContent"
               data-aos="fade-up"
               data-aos-duration="1800"
             >
-              <div class="row">
-                <div class="col-xl-9 col-lg-9 col-md-10 col-sm-10">
-                  <div class="slider__content">
-                    <span data-animation="fadeInUp" data-delay=".3s">
-                      Sky-Way Management always deliver high quality service.
-                    </span>
-                    <h1 data-animation="fadeInUp" data-delay=".5s">
-                      Be Sure You Put Your Feet in <br /> Right Place
-                    </h1>
-                    <div
-                      class="slider__btn"
-                      data-animation="fadeInUp"
-                      data-delay=".7s"
-                    >
-                      <a href="contact.html" class="z-btn z-btn-transparent">
-                        Start Here
-                      </a>
-                    </div>
+              <div className="row">
+                <div className="col-xl-12 col-lg-12 col-md-10 col-sm-10 slider__content">
+                  <span>
+                    Sky-Way Management always deliver high quality service.
+                  </span>
+                  <h1>
+                    Be Sure You Put Your Feet in Right  Place.
+                  </h1>
+                  <div
+                    className="slider__btn"
+                    data-animation="fadeInUp"
+                    data-delay=".7s"
+                  >
+                    <button>Start Here</button>
                   </div>
                 </div>
               </div>
             </div>
           </div>
         </div>
-      </section>
+      </div>
     </>
   );
 };
