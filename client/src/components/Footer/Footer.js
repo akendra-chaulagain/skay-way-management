@@ -7,7 +7,7 @@ const Footer = () => {
     <>
       <div class="d-flex flex-column footer">
         <footer class="w-100 py-4 flex-shrink-0 footerWrapper">
-          <div class="container-fluid py-4">
+          <div class="container py-4">
             <div class="row gy-4 gx-5">
               {/* left side data */}
               <div class="col-lg-4 col-md-6 leftSideFooterData">

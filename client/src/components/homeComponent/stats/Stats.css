@@ -1,6 +1,6 @@
 .stats {
   height: auto;
-  background-color: #1C3054;
+  background-color: #1c3054;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -35,30 +35,29 @@
 }
 
 @media only screen and (max-width: 990px) {
-  
-  
   .countainerContainer span {
-    font-size: 28px;
+    font-size: 22px;
     margin: 10px;
   }
   .countainerContainer h3 {
-    font-size: 22px;
+    font-size: 18px;
+    font-weight: 500;
   }
 }
 
 @media only screen and (max-width: 768px) {
-  .stats{
-    padding:2vh 1vh 8vh 1vh ;
+  .stats {
+    padding: 2vh 0vh 4vh 0vh;
   }
 
   .countainerContainer {
     margin-left: 0%;
     margin-top: 20px;
   }
-   .countainerContainer span {
-    font-size: 25px;
+  .countainerContainer span {
+    font-size: 20px;
   }
   .countainerContainer h3 {
-    font-size: 20px;
+    font-size: 17px;
   }
 }

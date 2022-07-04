@@ -11,7 +11,7 @@
 }
 
 .about__thumb .imageOne {
-  height: 400px;
+  height: 450px;
   width: 450px;
   border-radius: 10px;
 }
@@ -50,7 +50,7 @@
 
 @media only screen and (max-width: 991px) {
   .about__area {
-    padding: 8vh 1vh 8vh 1vh;
+    padding: 4vh 0vh 4vh 0vh;
   }
   .about__thumb .imageOne {
     height: 400px;
@@ -59,8 +59,12 @@
   }
   .aboutDataText {
     width: 50%;
+
   }
 
+.abouitsection__title h2 {
+  font-size: 26px;
+}
   .about__content p {
     font-size: 15px;
   }
@@ -71,18 +75,16 @@
 }
 @media only screen and (max-width: 768px) {
   .about__area {
-    padding: 8vh 1vh 8vh 1vh;
     width: 100%;
   }
   .about__thumb .imageOne {
-    height: 40vh;
+    height: 35vh;
     width: 100%;
     border-radius: 20px;
   }
   .aboutDataText {
     width: 100%;
     height: auto;
-    padding-bottom: 8vh;
   }
   .abouitsection__title h2 {
     font-size: 23px;

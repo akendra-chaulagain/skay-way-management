@@ -16,11 +16,9 @@
 .sectorTitle {
   display: flex;
   justify-content: center;
-  font-size: 28px;
+  font-size: 30px;
   font-weight: 900;
-  line-height: 1.1;
   color: white;
-  margin: 0px 0px 4vh 0vh;
 }
 /* .sectorWrapper {
   width: 100%;
@@ -54,9 +52,19 @@
 
 @media only screen and (max-width: 990px) {
   .sector {
-    padding: 8vh 1vh 8vh 1vh;
+    padding: 4vh 0vh 2vh 0vh;
   }
   .sectorTitle {
-    font-size: 22px;
+    font-size: 24px;
   }
+}
+
+@media only screen and (max-width: 768px) {
+ 
+  .sectorTitle {
+    font-size: 20px;
+  }
+  .sector__thumb h3 {
+  font-size: 15px;
+}
 }

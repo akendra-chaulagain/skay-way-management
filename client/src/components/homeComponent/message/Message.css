@@ -3,34 +3,21 @@
   height: auto;
   overflow: hidden;
   background-color: #192d52;
-  padding: 8vh 8vh 4vh 8vh;
+  padding: 8vh;
 }
 
-.messageImg {
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
-  align-items: center;
-}
 .messageImg img {
-  height: 300px;
-  width: 450px;
+  height: 350px;
+  width: 100%;
   border-radius: 10px;
 }
-.messageImg p {
-  color: white;
-  display: flex;
-  justify-content: center;
-  font-weight: 600;
-  font-size: 20px;
-  margin: 10px;
-}
+
 
 .messagename {
   display: flex;
   justify-content: center;
   color: white;
-  font-size: 25px;
+  font-size: 30px;
   font-weight: 600;
   letter-spacing: 2px;
   margin-bottom: 15px;
@@ -38,11 +25,15 @@
 
 .messageContent p {
   color: white;
+  font-size: 18px;
+}
+.secondData{
+  margin-top: 80px;
 }
 
 @media only screen and (max-width: 990px) {
   .message {
-    padding: 8vh 1vh 5vh 1vh;
+   padding: 4vh 0vh 0vh 0vh;
     overflow: hidden;
   }
   .messageImg img {
@@ -50,35 +41,35 @@
     width: 350px;
     border-radius: 10px;
   }
-  .messageImg p {
-    font-size: 16px;
-  }
+
   .messagename {
-    font-size: 20px;
+    font-size: 24px;
   }
   .messageContent {
     width: 50%;
   }
   .messageContent p {
-    font-size: 15px;
+    font-size: 16px;
   }
 }
 
 @media only screen and (max-width: 779px) {
-  /* .messageImg img{
+  .messageImg {
     width: 100%;
-  } */
+    display: flex;
+    justify-content: center;
+  }
   .messageContent {
     width: 100%;
   }
-  .messageImg p {
-    font-size: 14px;
-  }
   .messagename {
-    font-size: 19px;
+    font-size: 20px;
   }
   .messageContent p {
-    font-size: 16px;
+    font-size: 15px;
+  }
+  .secondImg img{
+    margin-top: -60px;
   }
 }
 
@@ -88,5 +79,4 @@
     width: 350px;
     border-radius: 10px;
   }
-
 }

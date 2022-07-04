@@ -27,28 +27,30 @@ const Testimonials = () => {
 
   return (
     <>
-      <div className=" testimonials">
-        <div className="testimonialsTopBar">Our Clients Say</div>
-        <div className="testomonialsWrapper">
-          <div className="row">
-            <Carousel
-              responsive={responsive}
-              arrows={false}
-              showDots={true}
-              dotListClass="custom-dot-list-style"
-              containerClass="carousel-container"
-            >
-              {testomonials.map((item) => (
-                <div class="col-md-11">
-                  <div class="testimonialsCard active p-3 text-center px-4">
-                    <div class="user-content">
-                      <h5 class="mb-0">{item.name}</h5>
-                      <p>{item.desc}</p>
+      <div className="testimonials">
+        <div className="container ">
+          <div className="testimonialsTopBar">Our Clients Say</div>
+          <div className="testomonialsWrapper">
+            <div className="row">
+              <Carousel
+                responsive={responsive}
+                arrows={false}
+                showDots={true}
+                dotListClass="custom-dot-list-style"
+                containerClass="carousel-container"
+              >
+                {testomonials.map((item) => (
+                  <div class="col-md-11">
+                    <div class="testimonialsCard active p-3 text-center px-4">
+                      <div class="user-content">
+                        <h5 class="mb-0">{item.name}</h5>
+                        <p>{item.desc}</p>
+                      </div>
                     </div>
                   </div>
-                </div>
-              ))}
-            </Carousel>
+                ))}
+              </Carousel>
+            </div>
           </div>
         </div>
       </div>

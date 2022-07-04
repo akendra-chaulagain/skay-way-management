@@ -55,6 +55,7 @@
   color: white;
   margin-top: 10px;
   font-size: 14px;
+  text-transform: uppercase;
 }
 .top-left {
   position: absolute;
@@ -70,7 +71,7 @@
 
 @media only screen and (max-width: 990px) {
   .roadMap {
-    padding: 5vh 1vh 8vh 1vh;
+   padding: 8vh 0vh 2vh 0vh;
     width: 100%;
     overflow: hidden;
   }
@@ -80,7 +81,7 @@
     border-radius: 5px;
   }
   .roadMapTitle {
-    font-size: 23px;
+    font-size: 24px;
   }
 
   .roadMapData .fa-check {
@@ -96,29 +97,22 @@
     left: 57%;
   }
   .roadMapData p {
-    font-size: 13px;
+    font-size: 16px;
   }
 }
 @media only screen and (max-width: 778px) {
   .roadMap {
     overflow: hidden;
   }
-  .roadMapTitle h2 {
-    font-size: 23px;
+  .roadMapTitle {
+    font-size: 20px;
     margin-top: 10px;
   }
+ 
 
-  .roadMapContainer h5 {
-    font-size: 17px;
-  }
-  .roadMapContainer p {
-    font-size: 14px;
-  }
 }
 @media only screen and (max-width: 450px) {
-  .roadMapTitle h2 {
-    font-size: 21px;
-  }
+
   .roadMapData .fa-check {
     height: 45px;
     width: 45px;
@@ -129,5 +123,8 @@
     font-size: 13px;
     width: 35%;
     left: 58%;
+  }
+  .roadMapData p {
+    font-size: 14px;
   }
 }

@@ -44,12 +44,12 @@
 .jobSectionData p {
   color: white;
   margin-top: 5px;
-  font-size: 15px;
+  font-size: 18px;
 }
 
 @media only screen and (max-width: 990px) {
   .jobSection {
-    padding: 5vh 1vh 8vh 1vh;
+   padding: 4vh 0vh 2vh 0vh;
     width: 100%;
     overflow: hidden;
   }
@@ -57,22 +57,25 @@
     font-size: 21px;
   }
   .jobSectionTitle {
-    font-size: 23px;
+    font-size: 24px;
   }
   .jobSectionData p {
-    font-size: 13px;
+    font-size: 16px;
   }
 }
 @media only screen and (max-width: 778px) {
   .jobSection {
     overflow: hidden;
   }
+   .jobSectionTitle {
+    font-size: 20px;
+  }
    .jobSectionData span {
-    font-size: 19px;
+    font-size: 18px;
   }
  
   .jobSectionContainer p {
-    font-size: 13px;
+    font-size: 15px;
   }
 }
 @media only screen and (max-width: 500px) {

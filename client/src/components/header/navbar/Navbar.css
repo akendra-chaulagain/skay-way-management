@@ -6,9 +6,6 @@
   position: sticky;
   z-index: 99;
 }
-.navBarWrapper {
-  padding: 0vh 9vh 0vh 9vh;
-}
 
 .navbar-brand img {
   height: 9vh;

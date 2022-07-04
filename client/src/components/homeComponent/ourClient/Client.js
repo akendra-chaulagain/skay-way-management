@@ -31,27 +31,28 @@ const Client = () => {
 
   return (
     <>
-      <div className="containe-fluid client">
-        <div className="clientTopBar">Our Clients</div>
-        <div className="clientWrapper">
-          <div className="row">
-            <Carousel
-              responsive={responsive}
-              arrows={false}
-              showDots={false}
-              dotListClass="custom-dot-list-style"
-              containerClass="carousel-container"
-            >
-              {client.map((item) => (
-                <div class="col-md-11">
-                  <div class="clientCard active p-3 text-center px-4">
-                    <div class="userClient_content">
-                      <img src={item.img} alt="" />
+      <div className="client">
+        <div className="container ">
+          <div className="clientTopBar">Our Clients</div>
+          <div className="clientWrapper">
+            <div className="row">
+              <Carousel
+                responsive={responsive}
+                arrows={false}
+                showDots={false}
+               
+              >
+                {client?.map((item) => (
+                  <div class="col-md-11">
+                    <div class="clientCard active p-3 text-center px-4">
+                      <div class="userClient_content">
+                        <img src={item.img} alt="" />
+                      </div>
                     </div>
                   </div>
-                </div>
-              ))}
-            </Carousel>
+                ))}
+              </Carousel>
+            </div>
           </div>
         </div>
       </div>
