@@ -10,7 +10,7 @@ const RoadMap = () => {
         <div className="roadMapWrapper">
           <div className="row ">
             {roadMap.map((item) => (
-              <div className="col-lg-2 col-md-4 col-sm-4 col-12 mt-3  roadMapContainer">
+              <div className="col-lg-2 col-md-3 col-sm-4 col-6 mt-3  roadMapContainer">
                 <div className=" roadMapData">
                   <span>
                     <i className="fa-solid fa-check"></i>

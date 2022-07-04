@@ -54,6 +54,9 @@
     width: 100%;
     overflow: hidden;
   }
+  .teamTitle{
+    font-size: 23px;
+  }
   .card_body {
     height: 330px;
     width: 230px;

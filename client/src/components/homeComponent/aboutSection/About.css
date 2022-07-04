@@ -6,17 +6,13 @@
   width: 100%;
   background-size: cover;
   background-position: center;
-  display: flex;
-  justify-content: center;
-  align-items: center;
   background-attachment: fixed;
   padding: 8vh;
 }
 
 .about__thumb .imageOne {
   height: 400px;
-  width: 420px;
-  object-fit: cover;
+  width: 450px;
   border-radius: 10px;
 }
 
@@ -53,9 +49,13 @@
 }
 
 @media only screen and (max-width: 991px) {
+  .about__area {
+    padding: 8vh 1vh 8vh 1vh;
+  }
   .about__thumb .imageOne {
     height: 400px;
     width: 320px;
+    object-fit: cover;
   }
   .aboutDataText {
     width: 50%;
@@ -71,13 +71,12 @@
 }
 @media only screen and (max-width: 768px) {
   .about__area {
-    padding: 0vh;
+    padding: 8vh 1vh 8vh 1vh;
     width: 100%;
   }
   .about__thumb .imageOne {
-    height: 50vh;
+    height: 40vh;
     width: 100%;
-    padding: 3vh 0vh 2vh 0vh;
     border-radius: 20px;
   }
   .aboutDataText {
@@ -90,7 +89,7 @@
     margin-top: 10px;
   }
   .about__content p {
-    font-size: 14px;
+    font-size: 15px;
   }
   .about__content button {
     padding: 5px 9px;

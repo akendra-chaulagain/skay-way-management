@@ -10,7 +10,10 @@ const Map = () => {
           <div className="row no-gutters">
             <div className="col-xl-12">
               <div className="contact__map">
-                <Iframe src="https://maps.google.com/maps?hl=en&amp;q=Dhaka+()&amp;ie=UTF8&amp;t=&amp;z=10&amp;iwloc=B&amp;output=embed"></Iframe>
+                <div className="mapurl">
+                  <Iframe src="https://maps.google.com/maps?hl=en&amp;q=Dhaka+()&amp;ie=UTF8&amp;t=&amp;z=10&amp;iwloc=B&amp;output=embed"></Iframe>
+                </div>
+
                 <div className="contact__wrapper d-md-flex justify-content-between">
                   <div className="contact__info mr-100">
                     <h3>Get in touch</h3>

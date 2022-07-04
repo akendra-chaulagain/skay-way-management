@@ -41,7 +41,7 @@
   text-align: center;
   font-size: 30px;
 }
-.roadMapData .fa-check:hover{
+.roadMapData .fa-check:hover {
   background-color: #4636ff;
   color: white;
 }
@@ -70,14 +70,33 @@
 
 @media only screen and (max-width: 990px) {
   .roadMap {
-    padding: 5vh 0vh 8vh 0vh;
+    padding: 5vh 1vh 8vh 1vh;
     width: 100%;
     overflow: hidden;
   }
-  .card_body {
-    height: 330px;
-    width: 230px;
+  .roadMapData {
+    height: 150px;
+    width: 200px;
     border-radius: 5px;
+  }
+  .roadMapTitle {
+    font-size: 23px;
+  }
+
+  .roadMapData .fa-check {
+    height: 50px;
+    width: 50px;
+    font-size: 20px;
+  }
+
+  .top-left {
+    font-size: 17px;
+    font-size: 14px;
+    width: 35%;
+    left: 57%;
+  }
+  .roadMapData p {
+    font-size: 13px;
   }
 }
 @media only screen and (max-width: 778px) {
@@ -88,16 +107,7 @@
     font-size: 23px;
     margin-top: 10px;
   }
-  .card_body {
-    height: 250px;
-    width: 200px;
-    border-radius: 5px;
-  }
-  .roadMap_img img {
-    height: 150px;
-    width: 150px;
-    margin: 10px 40px 10px 40px;
-  }
+
   .roadMapContainer h5 {
     font-size: 17px;
   }
@@ -105,10 +115,19 @@
     font-size: 14px;
   }
 }
-@media only screen and (max-width: 576px) {
-  .card_body {
-    height: 250px;
-    width: 96%;
-    margin-left: 2%;
+@media only screen and (max-width: 450px) {
+  .roadMapTitle h2 {
+    font-size: 21px;
+  }
+  .roadMapData .fa-check {
+    height: 45px;
+    width: 45px;
+    font-size: 18px;
+  }
+
+  .top-left {
+    font-size: 13px;
+    width: 35%;
+    left: 58%;
   }
 }

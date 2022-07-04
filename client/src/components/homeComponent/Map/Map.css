@@ -1,12 +1,14 @@
 .contact__area {
   position: relative;
   overflow: hidden;
+  height: auto;
+  width: 100%;
 }
 .contact__map {
   height: 750px;
 }
-.contact__map Iframe {
-  height: 60%;
+.mapurl iframe {
+  height: 40vh;
   width: 100%;
   border: none;
 }
@@ -54,7 +56,7 @@
   color: #4636ff;
 }
 .contact__form {
-  width: 50%;
+  width: 80%;
   margin-top: 5px;
 }
 
@@ -108,136 +110,29 @@
   resize: none;
 }
 
-/* 
-
-@media only screen and (min-width: 992px) and (max-width: 1199px) {
-  .contact__wrapper {
-    left: 0px;
-    margin-left: 0%;
-  }
-}
-@media only screen and (min-width: 768px) and (max-width: 991px) {
-  .contact__wrapper {
-    left: 30px;
-    width: 700px;
-  }
-}
-@media only screen and (min-width: 576px) and (max-width: 767px) {
-  .contact__wrapper {
-    left: 30px;
-    width: 500px;
-  }
-}
-@media (max-width: 575px) {
-  .contact__wrapper {
-    left: 30px;
-    width: 280px;
-    padding: 30px;
-  }
-}
-@media only screen and (min-width: 768px) and (max-width: 991px) {
-  .contact__info {
-    margin-right: 0;
-  }
-}
-@media only screen and (min-width: 576px) and (max-width: 767px) {
-  .contact__info {
-    margin-right: 0;
-  }
-}
-@media (max-width: 575px) {
-  .contact__info {
-    margin-right: 0;
-  }
-}
-
-@media only screen and (min-width: 576px) and (max-width: 767px) {
-  .contact__form {
-    width: 100%;
-    margin-top: 50px;
-  }
-}
-@media (max-width: 575px) {
-  .contact__form {
-    width: 100%;
-    margin-top: 50px;
-  }
-}
-
-
-@media only screen and (min-width: 768px) and (max-width: 991px) {
-  .contact__help-item {
-    padding: 50px;
-  }
-}
-@media (max-width: 575px) {
-  .contact__help-item {
-    padding: 30px 15px;
-  }
-}
-.contact__text h3 {
-  font-size: 26px;
-}
-.contact__text p {
-  margin-bottom: 35px;
-}
-.contact__shape img {
-  position: absolute;
-}
-.contact__shape img.dot {
-  left: 12%;
-  top: 36%;
-}
-@media only screen and (min-width: 992px) and (max-width: 1199px) {
-  .contact__shape img.dot {
-    left: 0%;
-  }
-}
-@media only screen and (min-width: 768px) and (max-width: 991px) {
-  .contact__shape img.dot {
-    left: 2%;
-  }
-}
-@media only screen and (min-width: 576px) and (max-width: 767px) {
-  .contact__shape img.dot {
-    left: 2%;
-    top: 24%;
-  }
-}
-@media (max-width: 575px) {
-  .contact__shape img.dot {
-    left: 2%;
-    top: 24%;
-  }
-}
-.contact__shape img.shape {
-  top: 25%;
-  left: 16%;
-  opacity: 0.04;
-}
-@media only screen and (min-width: 992px) and (max-width: 1199px) {
+@media only screen and (max-width: 1199px) {
   .contact__shape img.shape {
     left: 9%;
   }
+  .contact__wrapper {
+    width: 60%;
+    margin-left: 20%;
+  }
 }
-@media only screen and (min-width: 768px) and (max-width: 991px) {
-  .contact__shape img.shape {
-    left: 0;
-    right: 0;
+@media only screen and (max-width: 991px) {
+  .contact__wrapper {
+    width: 70%;
+    margin-left: 15%;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .contact__wrapper {
+    width: 100%;
+    margin-left: 0%;
+  }
+  .contact__info,
+  .contact__form {
     width: 100%;
   }
 }
-@media only screen and (min-width: 576px) and (max-width: 767px) {
-  .contact__shape img.shape {
-    left: 0;
-    right: 0;
-    width: 100%;
-  }
-}
-@media (max-width: 575px) {
-  .contact__shape img.shape {
-    left: 0;
-    right: 0;
-    width: 100%;
-  }
-} */
