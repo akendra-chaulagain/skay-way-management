@@ -4,15 +4,15 @@ import triangle from "../../../assets/images/slider/triangle.png";
 import triangle2 from "../../../assets/images/slider/dotted-square.png";
 import triangle3 from "../../../assets/images/slider/solid-square.png";
 import triangle4 from "../../../assets/images/slider/circle.png";
-import "./ServicesSlider.css";
+import "./DocumentSlider.css";
 
-const ServicesSlider = () => {
+const DocumentSlider = () => {
   return (
     <>
-      <section className="serviceSlider__area">
-        <div className="serviceSlider-active">
-          <div className="single-serviceSlider serviceSlider__height d-flex align-items-center">
-            <div className="serviceSlider__shape">
+      <section className="documentSlider__area">
+        <div className="documentSlider-active">
+          <div className="single-documentSlider documentSlider__height d-flex align-items-center">
+            <div className="documentSlider__shape">
               <img className="shape triangle" src={triangle} alt="triangle" />
               <img
                 className="shape dotted-square"
@@ -27,25 +27,25 @@ const ServicesSlider = () => {
               <img className="shape circle" src={triangle4} alt="circle" />
             </div>
             <div
-              className="container serviceSliderContent"
+              className="container documentSliderContent"
               data-aos="fade-up"
               data-aos-duration="1800"
             >
               {/* about us slider content */}
               <div className="row">
                 <div className="col-xl-9 col-lg-9 col-md-10 col-sm-10">
-                  <div className="serviceSlider__content">
+                  <div className="documentSlider__content">
                     <h1 data-animation="fadeInUp" data-delay=".5s">
-                      Services
+                      Document
                     </h1>
                     <p>
                       <Link className="link" to="/sky-way">
                         <span className="span-1">Home</span>
                       </Link>
-                      |<span>Services</span>
+                      |<span>Document</span>
                     </p>
                     <div
-                      className="serviceSlider__btn"
+                      className="documentSlider__btn"
                       data-animation="fadeInUp"
                       data-delay=".7s"
                     ></div>
@@ -60,4 +60,4 @@ const ServicesSlider = () => {
   );
 };
 
-export default ServicesSlider;
+export default DocumentSlider;

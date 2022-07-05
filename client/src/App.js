@@ -7,6 +7,7 @@ import AboutUs from "./pages/about/AboutUs";
 import Contact from "./pages/contact/Contact";
 import Home from "./pages/home/Home";
 import PostResume from "./pages/postResume/PostResume";
+import DocumentPage from "./pages/documentPage/DocumentPage"
 import Service from "./pages/service/Service";
 
 const App = () => {
@@ -25,6 +26,8 @@ const App = () => {
         <Route path="/services" element={<Service />} />
         {/* contact us */}
         <Route path="/contact" element={<Contact />} />
+        {/* document */}
+        <Route path="/document" element={<DocumentPage />} />
       </Routes>
     </>
   );

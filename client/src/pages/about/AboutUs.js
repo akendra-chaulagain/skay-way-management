@@ -1,7 +1,9 @@
 import React from "react";
-import AboutInfo from "../../components/aboutContainer/AboutInfo/AboutInfo";
+// import AboutInfo from "../../components/aboutContainer/aboutInfo/AboutInfo";
 import AboutSlider from "../../components/aboutContainer/aboutSlider/AboutSlider";
-import Footer from "../../components/Footer/Footer"
+import AboutUsInfo from "../../components/aboutContainer/aboutUsInfo/AboutUsInfo";
+import WhyUs from "../../components/aboutContainer/whyUs/WhyUs";
+import Footer from "../../components/Footer/Footer";
 import "./AboutUs.css";
 
 const AboutUs = () => {
@@ -14,10 +16,11 @@ const AboutUs = () => {
             <AboutSlider />
           </div>
           {/* about us info */}
-          <AboutInfo />
-       
+          <AboutUsInfo />
+          {/* why us */}
+          <WhyUs />
           {/* footer */}
-          <Footer/>
+          <Footer />
         </div>
       </div>
     </>

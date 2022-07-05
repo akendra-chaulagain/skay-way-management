@@ -1,0 +1,102 @@
+.documentSlider__area {
+  background-image: linear-gradient(
+      rgba(44, 54, 95, 0.7),
+      rgba(12, 43, 136, 0.7)
+    ),
+    url("https://images.pexels.com/photos/590037/pexels-photo-590037.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+  height: 40vh;
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  background-color: #381fae;
+  overflow: hidden;
+}
+.about__shape {
+  position: absolute;
+  top: 100px;
+  left: -27px;
+  z-index: -1;
+}
+
+.documentSlider__content {
+  position: relative;
+  z-index: 1;
+}
+
+.documentSlider__content {
+  height: 40vh;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.documentSlider__content h1 {
+  font-size: 40px;
+  color: white;
+  font-weight: 900;
+  margin-bottom: 19px;
+}
+.documentSlider__content p {
+  color: white;
+  font-weight: 600;
+}
+.documentSlider__content p span {
+  margin: 10px;
+}
+.documentSlider__content p .span-1 {
+  cursor: pointer;
+}
+
+.documentSlider__shape img {
+  position: absolute;
+}
+.documentSlider__shape img.triangle {
+  right: 28%;
+  bottom: 38%;
+  animation: triangle 5s linear 0s infinite alternate;
+  -webkit-animation: triangle 5s linear 0s infinite alternate;
+}
+.documentSlider__shape img.dotted-square {
+  right: 22%;
+  bottom: 31%;
+  animation: dottedSquare 8s linear 0s infinite alternate;
+  -webkit-animation: dottedSquare 8s linear 0s infinite alternate;
+}
+.documentSlider__shape img.solid-square {
+  bottom: 19%;
+  right: 25%;
+  z-index: 1;
+  animation: solidsquare 5s linear 0s infinite alternate;
+  -webkit-animation: solidsquare 5s linear 0s infinite alternate;
+}
+.documentSlider__shape img.circle {
+  right: 10%;
+  bottom: -47%;
+  height: 50vh;
+  animation: documentSliderCircle 7s linear 0s infinite alternate;
+}
+
+@media (max-width: 575px) {
+  .documentSlider__play {
+    margin-top: 30px;
+  }
+}
+.documentSlider__play-btn {
+  display: inline-block;
+  width: 90px;
+  height: 90px;
+  line-height: 86px;
+  text-align: center;
+  font-size: 25px;
+  color: white;
+  border: 2px solid rgba(255, 255, 255, 0.2);
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  border-radius: 50%;
+  animation: pulse 2s infinite;
+}
+.documentSlider__play-btn:hover {
+  background: white;
+  color: #1f1841;
+  border-color: white;
+}

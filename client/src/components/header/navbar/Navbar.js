@@ -27,17 +27,17 @@ const Navbar = () => {
             </li>
 
             <li class="nav-item dropdown">
-              <a class="nav-link link  dropbtn" href="/shop">
+              <Link class="nav-link link  dropbtn" to="/document">
                 Documentation
-              </a>
+              </Link>
 
-              <div className="dropdown-content">
+              {/* <div className="dropdown-content">
                 <a href="/women_cloth">Demand Letter </a>
                 <a href="/man_cloth">Employment Contract </a>
                 <a href="/kids_cloth">Gurantee Letter </a>
                 <a href="/jewelry">Mobilization Agreement </a>
                 <a href="/luxury_bag">Power Of Attornity </a>
-              </div>
+              </div> */}
             </li>
 
             {/* post resume */}

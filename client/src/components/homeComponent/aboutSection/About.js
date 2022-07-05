@@ -1,6 +1,7 @@
 import React from "react";
 import "./About.css";
 import about from "../../../assets/about/about.JPG";
+import { Link } from "react-router-dom";
 
 const About = () => {
   return (
@@ -23,18 +24,21 @@ const About = () => {
                   <h2>ABOUT US</h2>
                 </div>
                 <p>
-                  Why I say old chap that is spiffing do one, cup of char bite
-                  your arm off lavatory bugger all mate bog-standard bits and
-                  bobs I'm telling barmy blow. Lorem ipsum dolor sit, amet
-                  consectetur adipisicing elit. Eius tempora culpa eligendi
-                  temporibus aliquam quidem doloremque ullam suscipit velit quo?
-                  Aut odit perferendis reiciendis rerum ipsum, nulla eveniet
-                  inventore doloremque corrupti, quam esse numquam, a architecto
-                  voluptate. Non, quo officia! <br />
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Voluptatum, voluptatibus.
+                  Sky Way Management, A last resort of Manpower requirement to
+                  its clients, has started its service since 2013 then
+                  continuously supplies the manpower pertaining Blue to White
+                  Colors Workers in the Middle East and Malaysia. It has a team
+                  of competent, Talents who have worked in the sectors for
+                  decades. Team of Talents goes deep down through the
+                  requirements received by its value clients and always focuses
+                  for the best output meeting the target in one –go to save the
+                  time and effort of both the parties for fair and successful
+                  recruitment. We always value ethics and professionalism at the
+                  top.
                 </p>
-                <button>Read More</button>
+                <Link className="link" to="/about">
+                  <button>Read More</button>
+                </Link>
               </div>
             </div>
           </div>

@@ -1,0 +1,23 @@
+.AboutUsInfo {
+  background-color: #192d52;
+  width: 100%;
+  padding: 8vh;
+}
+
+/* title */
+.aboutUsInfoTitle h1 {
+  color: white;
+  font-size: 40px;
+  font-weight: 600;
+  letter-spacing: 2px;
+  margin-top: 15px;
+}
+.aboutUsInfoTitle h2 {
+  color: white;
+  font-size: 30px;
+}
+.aboutUsInfoData p{
+    color: white;
+    font-size: 18px;
+    margin-top: 15px;
+}
