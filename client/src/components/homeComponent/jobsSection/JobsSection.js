@@ -7,20 +7,24 @@ const JobsSection = () => {
     <>
       <div className="jobSection">
         <div className="container">
-          <div className="jobSectionWrapper">
-            <div className="jobSectionTitle">New Jobs</div>
-            <div className="jobSectionWrapper">
-              <div className="row ">
-                {job.map((item) => (
-                  <div className="col-lg-3 col-md-3 col-sm-4 col-6 mt-3  jobSectionContainer">
-                    <div className=" jobSectionData">
-                      <span>{item.title}</span>
-                      <p>{item.desc.slice(0, 60)}</p>
-                    </div>
+          <div className="jobSectionTitle">New Jobs</div>
+
+          <div className="row ">
+            {job.map((item) => (
+              <div className="col-lg-4 col-md-6 col-sm-6 col-12 mt-2  jobSectionContainer">
+                <div className=" jobSectionData">
+                  <div className="jobImg">
+                    <img src={item.img} alt="job_img" />
                   </div>
-                ))}
+                  <div className="jobDesc">
+                    <h4>{item.title}</h4>
+                    <p>
+                      Lorem ipsum dolor sit, amet consectetur adipisicing elit.{" "}
+                    </p>
+                  </div>
+                </div>
               </div>
-            </div>
+            ))}
           </div>
         </div>
       </div>

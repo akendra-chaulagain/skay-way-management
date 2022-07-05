@@ -22,38 +22,40 @@
   width: 430px;
   border-radius: 10px;
   display: flex;
+  padding: 10px;
+}
+
+.jobImg img {
+  height: 120px;
+  width: 150px;
+  border-radius: 10px;
+  padding: 4px;
+}
+
+/* .jobDesc */
+.jobDesc {
+  margin-left: 10px;
+  display: flex;
   justify-content: center;
-  align-items: center;
   flex-direction: column;
-  text-align: center;
-  padding: 20px;
-  position: relative;
+}
+.jobDesc h4 {
+  color: white;
+  font-size: 20px;
+  font-weight: 600;
   cursor: pointer;
 }
-
-.jobSectionContainer {
-  display: flex;
-  justify-content: space-evenly;
-}
-
-.jobSectionData span {
+.jobDesc p {
   color: white;
-  font-weight: 600;
-  font-size: 25px;
-}
-.jobSectionData p {
-  color: white;
-  margin-top: 5px;
-  font-size: 18px;
 }
 
 @media only screen and (max-width: 990px) {
   .jobSection {
-   padding: 4vh 0vh 2vh 0vh;
+    padding: 4vh 0vh 2vh 0vh;
     width: 100%;
     overflow: hidden;
   }
-   .jobSectionData span {
+  .jobSectionData span {
     font-size: 21px;
   }
   .jobSectionTitle {
@@ -67,24 +69,23 @@
   .jobSection {
     overflow: hidden;
   }
-   .jobSectionTitle {
+  .jobSectionTitle {
     font-size: 20px;
   }
-   .jobSectionData span {
+  .jobSectionData span {
     font-size: 18px;
   }
- 
+
   .jobSectionContainer p {
     font-size: 15px;
   }
 }
 @media only screen and (max-width: 500px) {
- .jobSectionData span {
+  .jobSectionData span {
     font-size: 18px;
   }
- 
+
   .jobSectionContainer p {
     font-size: 12px;
   }
 }
-

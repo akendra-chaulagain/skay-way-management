@@ -1,63 +1,32 @@
 export const job = [
   {
     id: 1,
-    title: "Cook",
-    desc: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quibusdam corporis quidem repellat repellendus cum eos recusandae nam facilis repudiandae, nobis alias dignissimos quaerat dolores quas suscipit. Excepturi itaque soluta laudantium rerum eum nisi consectetur voluptate cum sunt molestiae omnis earum, doloribus sapiente ipsum fugit laboriosam incidunt possimus deleniti illo laborum quas harum? Possimus libero mollitia natus vel, dignissimos sint cupiditate praesentium aliquid impedit error officia laboriosam soluta dolores quas beatae quisquam minima doloremque consequatur neque modi eum commodi. Impedit quae cumque iste qui veritatis nam tempore provident perferendis, ex esse, suscipit repudiandae quaerat excepturi! Autem quia minus dolorem? Maiores autem minus error similique temporibus libero aliquam nisi, placeat harum. Quis nostrum repellendus consectetur voluptate accusantium tempore eos, perferendis, voluptatibus sapiente, molestiae nesciunt mollitia earum eveniet pariatur nisi. Facere quibusdam!",
+    title: "Construction",
+    img: "https://media.istockphoto.com/photos/construction-site-view-with-tower-crane-picture-id940251778?b=1&k=20&m=940251778&s=612x612&w=0&h=yrzJm9UFy4nTpSRzDvEWRMZ8BQjykSVPxILvChNH1tc=",
   },
   {
     id: 2,
-    title: "Cook",
-    desc: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quibusdam corporis quidem repellat repellendus cum eos recusandae nam facilis repudiandae, nobis alias dignissimos quaerat dolores quas suscipit. Excepturi itaque soluta laudantium rerum eum nisi consectetur voluptate cum sunt molestiae omnis earum, doloribus sapiente ipsum fugit laboriosam incidunt possimus deleniti illo laborum quas harum? Possimus libero mollitia natus vel, dignissimos sint cupiditate praesentium aliquid impedit error officia laboriosam soluta dolores quas beatae quisquam minima doloremque consequatur neque modi eum commodi. Impedit quae cumque iste qui veritatis nam tempore provident perferendis, ex esse, suscipit repudiandae quaerat excepturi! Autem quia minus dolorem? Maiores autem minus error similique temporibus libero aliquam nisi, placeat harum. Quis nostrum repellendus consectetur voluptate accusantium tempore eos, perferendis, voluptatibus sapiente, molestiae nesciunt mollitia earum eveniet pariatur nisi. Facere quibusdam!",
+    title: "Construction",
+    img: "https://media.istockphoto.com/photos/construction-site-view-with-tower-crane-picture-id940251778?b=1&k=20&m=940251778&s=612x612&w=0&h=yrzJm9UFy4nTpSRzDvEWRMZ8BQjykSVPxILvChNH1tc=",
   },
   {
     id: 3,
-    title: "Cook",
-    desc: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quibusdam corporis quidem repellat repellendus cum eos recusandae nam facilis repudiandae, nobis alias dignissimos quaerat dolores quas suscipit. Excepturi itaque soluta laudantium rerum eum nisi consectetur voluptate cum sunt molestiae omnis earum, doloribus sapiente ipsum fugit laboriosam incidunt possimus deleniti illo laborum quas harum? Possimus libero mollitia natus vel, dignissimos sint cupiditate praesentium aliquid impedit error officia laboriosam soluta dolores quas beatae quisquam minima doloremque consequatur neque modi eum commodi. Impedit quae cumque iste qui veritatis nam tempore provident perferendis, ex esse, suscipit repudiandae quaerat excepturi! Autem quia minus dolorem? Maiores autem minus error similique temporibus libero aliquam nisi, placeat harum. Quis nostrum repellendus consectetur voluptate accusantium tempore eos, perferendis, voluptatibus sapiente, molestiae nesciunt mollitia earum eveniet pariatur nisi. Facere quibusdam!",
+    title: "Construction",
+    img: "https://media.istockphoto.com/photos/construction-site-view-with-tower-crane-picture-id940251778?b=1&k=20&m=940251778&s=612x612&w=0&h=yrzJm9UFy4nTpSRzDvEWRMZ8BQjykSVPxILvChNH1tc=",
   },
   {
     id: 4,
-    title: "Cook",
-    desc: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quibusdam corporis quidem repellat repellendus cum eos recusandae nam facilis repudiandae, nobis alias dignissimos quaerat dolores quas suscipit. Excepturi itaque soluta laudantium rerum eum nisi consectetur voluptate cum sunt molestiae omnis earum, doloribus sapiente ipsum fugit laboriosam incidunt possimus deleniti illo laborum quas harum? Possimus libero mollitia natus vel, dignissimos sint cupiditate praesentium aliquid impedit error officia laboriosam soluta dolores quas beatae quisquam minima doloremque consequatur neque modi eum commodi. Impedit quae cumque iste qui veritatis nam tempore provident perferendis, ex esse, suscipit repudiandae quaerat excepturi! Autem quia minus dolorem? Maiores autem minus error similique temporibus libero aliquam nisi, placeat harum. Quis nostrum repellendus consectetur voluptate accusantium tempore eos, perferendis, voluptatibus sapiente, molestiae nesciunt mollitia earum eveniet pariatur nisi. Facere quibusdam!",
+    title: "Construction",
+    img: "https://media.istockphoto.com/photos/construction-site-view-with-tower-crane-picture-id940251778?b=1&k=20&m=940251778&s=612x612&w=0&h=yrzJm9UFy4nTpSRzDvEWRMZ8BQjykSVPxILvChNH1tc=",
   },
   {
     id: 5,
-    title: "Cook",
-    desc: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quibusdam corporis quidem repellat repellendus cum eos recusandae nam facilis repudiandae, nobis alias dignissimos quaerat dolores quas suscipit. Excepturi itaque soluta laudantium rerum eum nisi consectetur voluptate cum sunt molestiae omnis earum, doloribus sapiente ipsum fugit laboriosam incidunt possimus deleniti illo laborum quas harum? Possimus libero mollitia natus vel, dignissimos sint cupiditate praesentium aliquid impedit error officia laboriosam soluta dolores quas beatae quisquam minima doloremque consequatur neque modi eum commodi. Impedit quae cumque iste qui veritatis nam tempore provident perferendis, ex esse, suscipit repudiandae quaerat excepturi! Autem quia minus dolorem? Maiores autem minus error similique temporibus libero aliquam nisi, placeat harum. Quis nostrum repellendus consectetur voluptate accusantium tempore eos, perferendis, voluptatibus sapiente, molestiae nesciunt mollitia earum eveniet pariatur nisi. Facere quibusdam!",
+    title: "Construction",
+    img: "https://media.istockphoto.com/photos/construction-site-view-with-tower-crane-picture-id940251778?b=1&k=20&m=940251778&s=612x612&w=0&h=yrzJm9UFy4nTpSRzDvEWRMZ8BQjykSVPxILvChNH1tc=",
   },
   {
     id: 6,
-    title: "Cook",
-    desc: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quibusdam corporis quidem repellat repellendus cum eos recusandae nam facilis repudiandae, nobis alias dignissimos quaerat dolores quas suscipit. Excepturi itaque soluta laudantium rerum eum nisi consectetur voluptate cum sunt molestiae omnis earum, doloribus sapiente ipsum fugit laboriosam incidunt possimus deleniti illo laborum quas harum? Possimus libero mollitia natus vel, dignissimos sint cupiditate praesentium aliquid impedit error officia laboriosam soluta dolores quas beatae quisquam minima doloremque consequatur neque modi eum commodi. Impedit quae cumque iste qui veritatis nam tempore provident perferendis, ex esse, suscipit repudiandae quaerat excepturi! Autem quia minus dolorem? Maiores autem minus error similique temporibus libero aliquam nisi, placeat harum. Quis nostrum repellendus consectetur voluptate accusantium tempore eos, perferendis, voluptatibus sapiente, molestiae nesciunt mollitia earum eveniet pariatur nisi. Facere quibusdam!",
+    title: "Construction",
+    img: "https://media.istockphoto.com/photos/construction-site-view-with-tower-crane-picture-id940251778?b=1&k=20&m=940251778&s=612x612&w=0&h=yrzJm9UFy4nTpSRzDvEWRMZ8BQjykSVPxILvChNH1tc=",
   },
-  {
-    id: 7,
-    title: "Cook",
-    desc: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quibusdam corporis quidem repellat repellendus cum eos recusandae nam facilis repudiandae, nobis alias dignissimos quaerat dolores quas suscipit. Excepturi itaque soluta laudantium rerum eum nisi consectetur voluptate cum sunt molestiae omnis earum, doloribus sapiente ipsum fugit laboriosam incidunt possimus deleniti illo laborum quas harum? Possimus libero mollitia natus vel, dignissimos sint cupiditate praesentium aliquid impedit error officia laboriosam soluta dolores quas beatae quisquam minima doloremque consequatur neque modi eum commodi. Impedit quae cumque iste qui veritatis nam tempore provident perferendis, ex esse, suscipit repudiandae quaerat excepturi! Autem quia minus dolorem? Maiores autem minus error similique temporibus libero aliquam nisi, placeat harum. Quis nostrum repellendus consectetur voluptate accusantium tempore eos, perferendis, voluptatibus sapiente, molestiae nesciunt mollitia earum eveniet pariatur nisi. Facere quibusdam!",
-  },
-  {
-    id: 8,
-    title: "Cook",
-    desc: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quibusdam corporis quidem repellat repellendus cum eos recusandae nam facilis repudiandae, nobis alias dignissimos quaerat dolores quas suscipit. Excepturi itaque soluta laudantium rerum eum nisi consectetur voluptate cum sunt molestiae omnis earum, doloribus sapiente ipsum fugit laboriosam incidunt possimus deleniti illo laborum quas harum? Possimus libero mollitia natus vel, dignissimos sint cupiditate praesentium aliquid impedit error officia laboriosam soluta dolores quas beatae quisquam minima doloremque consequatur neque modi eum commodi. Impedit quae cumque iste qui veritatis nam tempore provident perferendis, ex esse, suscipit repudiandae quaerat excepturi! Autem quia minus dolorem? Maiores autem minus error similique temporibus libero aliquam nisi, placeat harum. Quis nostrum repellendus consectetur voluptate accusantium tempore eos, perferendis, voluptatibus sapiente, molestiae nesciunt mollitia earum eveniet pariatur nisi. Facere quibusdam!",
-  },
-  {
-    id: 9,
-    title: "Cook",
-    desc: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quibusdam corporis quidem repellat repellendus cum eos recusandae nam facilis repudiandae, nobis alias dignissimos quaerat dolores quas suscipit. Excepturi itaque soluta laudantium rerum eum nisi consectetur voluptate cum sunt molestiae omnis earum, doloribus sapiente ipsum fugit laboriosam incidunt possimus deleniti illo laborum quas harum? Possimus libero mollitia natus vel, dignissimos sint cupiditate praesentium aliquid impedit error officia laboriosam soluta dolores quas beatae quisquam minima doloremque consequatur neque modi eum commodi. Impedit quae cumque iste qui veritatis nam tempore provident perferendis, ex esse, suscipit repudiandae quaerat excepturi! Autem quia minus dolorem? Maiores autem minus error similique temporibus libero aliquam nisi, placeat harum. Quis nostrum repellendus consectetur voluptate accusantium tempore eos, perferendis, voluptatibus sapiente, molestiae nesciunt mollitia earum eveniet pariatur nisi. Facere quibusdam!",
-  },
-  {
-    id: 10,
-    title: "Cook",
-    desc: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quibusdam corporis quidem repellat repellendus cum eos recusandae nam facilis repudiandae, nobis alias dignissimos quaerat dolores quas suscipit. Excepturi itaque soluta laudantium rerum eum nisi consectetur voluptate cum sunt molestiae omnis earum, doloribus sapiente ipsum fugit laboriosam incidunt possimus deleniti illo laborum quas harum? Possimus libero mollitia natus vel, dignissimos sint cupiditate praesentium aliquid impedit error officia laboriosam soluta dolores quas beatae quisquam minima doloremque consequatur neque modi eum commodi. Impedit quae cumque iste qui veritatis nam tempore provident perferendis, ex esse, suscipit repudiandae quaerat excepturi! Autem quia minus dolorem? Maiores autem minus error similique temporibus libero aliquam nisi, placeat harum. Quis nostrum repellendus consectetur voluptate accusantium tempore eos, perferendis, voluptatibus sapiente, molestiae nesciunt mollitia earum eveniet pariatur nisi. Facere quibusdam!",
-  },
-  {
-    id: 11,
-    title: "Cook",
-    desc: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quibusdam corporis quidem repellat repellendus cum eos recusandae nam facilis repudiandae, nobis alias dignissimos quaerat dolores quas suscipit. Excepturi itaque soluta laudantium rerum eum nisi consectetur voluptate cum sunt molestiae omnis earum, doloribus sapiente ipsum fugit laboriosam incidunt possimus deleniti illo laborum quas harum? Possimus libero mollitia natus vel, dignissimos sint cupiditate praesentium aliquid impedit error officia laboriosam soluta dolores quas beatae quisquam minima doloremque consequatur neque modi eum commodi. Impedit quae cumque iste qui veritatis nam tempore provident perferendis, ex esse, suscipit repudiandae quaerat excepturi! Autem quia minus dolorem? Maiores autem minus error similique temporibus libero aliquam nisi, placeat harum. Quis nostrum repellendus consectetur voluptate accusantium tempore eos, perferendis, voluptatibus sapiente, molestiae nesciunt mollitia earum eveniet pariatur nisi. Facere quibusdam!",
-  },
-  {
-    id: 12,
-    title: "Cook",
-    desc: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quibusdam corporis quidem repellat repellendus cum eos recusandae nam facilis repudiandae, nobis alias dignissimos quaerat dolores quas suscipit. Excepturi itaque soluta laudantium rerum eum nisi consectetur voluptate cum sunt molestiae omnis earum, doloribus sapiente ipsum fugit laboriosam incidunt possimus deleniti illo laborum quas harum? Possimus libero mollitia natus vel, dignissimos sint cupiditate praesentium aliquid impedit error officia laboriosam soluta dolores quas beatae quisquam minima doloremque consequatur neque modi eum commodi. Impedit quae cumque iste qui veritatis nam tempore provident perferendis, ex esse, suscipit repudiandae quaerat excepturi! Autem quia minus dolorem? Maiores autem minus error similique temporibus libero aliquam nisi, placeat harum. Quis nostrum repellendus consectetur voluptate accusantium tempore eos, perferendis, voluptatibus sapiente, molestiae nesciunt mollitia earum eveniet pariatur nisi. Facere quibusdam!",
-  },
-  
 ];

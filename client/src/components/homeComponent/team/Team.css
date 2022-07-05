@@ -1,5 +1,14 @@
 .team {
   height: auto;
+  /* margin: 10vh 0vh 10vh 0vh; */
+  background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)),
+    url("https://images.pexels.com/photos/1181304/pexels-photo-1181304.jpeg?auto=compress&cs=tinysrgb&w=1460&h=1250&dpr=1");
+  height: auto;
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  background-attachment: fixed;
   width: 100%;
   background-size: cover;
   flex-direction: column;

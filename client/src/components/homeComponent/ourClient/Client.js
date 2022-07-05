@@ -41,6 +41,7 @@ const Client = () => {
                 arrows={false}
                 showDots={false}
                 autoPlay={true}
+                infinite={true}
                
               >
                 {client?.map((item) => (
