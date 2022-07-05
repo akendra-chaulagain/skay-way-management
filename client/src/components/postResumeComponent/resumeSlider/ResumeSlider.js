@@ -39,7 +39,7 @@ const ResumeSlider = () => {
                       Post Resume
                     </h1>
                     <p>
-                      <Link className="link" to="/">
+                      <Link className="link" to="/sky-way">
                         <span className="span-1">Home</span>
                       </Link>
                       |<span>Post resume</span>

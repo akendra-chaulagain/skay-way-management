@@ -4,6 +4,7 @@ import triangle2 from "../../../assets/images/slider/dotted-square.png";
 import triangle3 from "../../../assets/images/slider/solid-square.png";
 import triangle4 from "../../../assets/images/slider/circle.png";
 import "./AboutSlider.css";
+import {Link} from "react-router-dom"
 
 const AboutSlider = () => {
   return (
@@ -38,8 +39,10 @@ const AboutSlider = () => {
                       About Us
                     </h1>
                     <p>
-                      <span className="span-1">Home</span> |{" "}
-                      <span>About Us</span>
+                      <Link className="link" to="/sky-way">
+                        <span className="span-1">Home</span>{" "}
+                      </Link>
+                      | <span>About Us</span>
                     </p>
                     <div
                       class="aboutTop__btn"
