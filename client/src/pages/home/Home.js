@@ -18,13 +18,15 @@ const Home = () => {
       <Slider />
       <About />
       <Messange />
-      <Team />
+      <WorkSector />
+
+      <JobsSection />
       <RoadMap />
+
+      <Team />
       <Testimonials />
       <Client />
       <Stats />
-      <WorkSector />
-      <JobsSection />
       <Map />
       <Footer />
     </>

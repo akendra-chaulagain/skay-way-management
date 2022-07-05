@@ -40,6 +40,7 @@ const Client = () => {
                 responsive={responsive}
                 arrows={false}
                 showDots={false}
+                autoPlay={true}
                
               >
                 {client?.map((item) => (

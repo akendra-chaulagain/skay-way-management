@@ -1,5 +1,7 @@
 import React from "react";
 import "./Message.css";
+import chairman from "../../../assets/message/chairman.JPG"
+import director from "../../../assets/message/director.JPG";
 
 const Messange = () => {
   return (
@@ -10,10 +12,7 @@ const Messange = () => {
             <div className="row">
               {/* messagfe from chairman */}
               <div className="col-lg-5 col-md-6 messageImg">
-                <img
-                  src="https://images.pexels.com/photos/1121796/pexels-photo-1121796.jpeg?auto=compress&cs=tinysrgb&w=600"
-                  alt="Img_message"
-                />
+                <img src={chairman} alt="Img_message" />
               </div>
               <div className="col-lg-7 col-md-6 messageContent">
                 <div className="messagename">MESSAGE FROM CHAIRMAN</div>
@@ -53,10 +52,7 @@ const Messange = () => {
                 </p>
               </div>
               <div className="col-md-5 messageImg secondData secondImg">
-                <img
-                  src="https://images.pexels.com/photos/1121796/pexels-photo-1121796.jpeg?auto=compress&cs=tinysrgb&w=600"
-                  alt=""
-                />
+                <img src={director} alt="message_img" />
               </div>
             </div>
           </div>

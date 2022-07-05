@@ -29,7 +29,8 @@
 .userClient_content img {
   height: 120px;
   width: 120px;
-  border-radius: 50%;
+  object-fit: contain;
+  /* border-radius: 50%; */
 }
 
 /* dots */
@@ -46,7 +47,6 @@
   .userClient_content img {
     height: 100px;
     width: 100px;
-    border-radius: 50%;
   }
 }
 

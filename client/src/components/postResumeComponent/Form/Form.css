@@ -3,6 +3,7 @@
   height: auto;
   margin-top: 5vh;
   padding-bottom: 10vh;
+  /* background-color: #192D52; */
 }
 .postResumeTitle {
   display: flex;
@@ -39,7 +40,7 @@
 }
 .inputItem textarea {
   width: 100%;
-  height: 35px;
+  height: 40px;
   border-radius: 5px;
   padding: 4px 10px;
   outline-color: blue;
@@ -115,10 +116,10 @@
 }
 
 /* others skills */
-.othersSkills{
+.othersSkills {
   margin-top: 4px;
 }
-.othersSkills h3{
+.othersSkills h3 {
   font-size: 18px;
   margin-top: 20px;
   font-weight: 600;
@@ -128,13 +129,12 @@
   height: 10vh;
   border-radius: 10px;
   outline-color: #4636ff;
-
 }
 /* submit button */
-.submmitBtn{
+.submmitBtn {
   margin-top: 20px;
 }
-.submmitBtn button{
+.submmitBtn button {
   padding: 4px 25px;
   border: none;
   outline: none;
@@ -145,7 +145,7 @@
   background-color: #4636ff;
   color: white;
 }
-.submmitBtn button:hover{
-   color: white;
+.submmitBtn button:hover {
+  color: white;
   background-color: black;
 }

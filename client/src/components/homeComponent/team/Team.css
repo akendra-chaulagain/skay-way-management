@@ -32,7 +32,7 @@
 }
 .team_img img {
   height: 200px;
-  width: 200px;
+  width: 250px;
   border-radius: 10px;
   margin: 20px 40px 4px 40px;
 }
@@ -43,12 +43,13 @@
 
 .teamContainer h5 {
   color: white;
-  font-size: 22px;
+  font-size: 20px;
+  margin-top: 10px;
   font-weight: 600;
 }
 .teamContainer p {
   color: white;
-  font-size: 18px;
+  font-size: 17px;
 }
 
 @media only screen and (max-width: 990px) {
@@ -57,7 +58,7 @@
     width: 100%;
     overflow: hidden;
   }
-  .teamTitle{
+  .teamTitle {
     font-size: 24px;
   }
   .card_body {
@@ -66,9 +67,9 @@
     border-radius: 5px;
   }
   .teamContainer p {
-  color: white;
-  font-size: 16px;
-}
+    color: white;
+    font-size: 16px;
+  }
 }
 @media only screen and (max-width: 778px) {
   .team {
