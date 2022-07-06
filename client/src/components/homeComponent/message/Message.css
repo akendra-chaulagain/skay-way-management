@@ -26,6 +26,7 @@
 .messageContent p {
   color: white;
   font-size: 18px;
+  text-align: justify;
 }
 .secondData{
   margin-top: 80px;

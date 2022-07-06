@@ -1,0 +1,15 @@
+.galleryImg {
+  padding: 8vh;
+  background-color: #0f0232;
+}
+
+.image-gallery-slide img {
+    width: 600px;
+    height: 500px;
+}
+
+.image-gallery-thumbnail-image{
+    height: 70px;
+    width: 100px;
+    object-fit: contain;
+}

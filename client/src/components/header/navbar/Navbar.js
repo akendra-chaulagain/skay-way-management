@@ -20,24 +20,24 @@ const Navbar = () => {
                 Home
               </Link>
             </li>
-            <li class="nav-item">
-              <Link className=" nav-link  link" to="/about">
+            <li class="nav-item dropdown">
+              <Link className=" nav-link  link dropbtn" to="/about">
                 About Us
               </Link>
+              <div className="dropdown-content">
+                <Link className="link" to="about/about_nepal">
+                  About Nepal{" "}
+                </Link>
+                <Link className="link" to="/about/why_nepalese">
+                  Why Nepalese{" "}
+                </Link>
+              </div>
             </li>
 
-            <li class="nav-item dropdown">
-              <Link class="nav-link link  dropbtn" to="/document">
+            <li class="nav-item ">
+              <Link class="nav-link link  " to="/document">
                 Documentation
               </Link>
-
-              {/* <div className="dropdown-content">
-                <a href="/women_cloth">Demand Letter </a>
-                <a href="/man_cloth">Employment Contract </a>
-                <a href="/kids_cloth">Gurantee Letter </a>
-                <a href="/jewelry">Mobilization Agreement </a>
-                <a href="/luxury_bag">Power Of Attornity </a>
-              </div> */}
             </li>
 
             {/* post resume */}
@@ -47,12 +47,11 @@ const Navbar = () => {
               </Link>
             </li>
 
-            {/* <li class="nav-item">
-              <Link className="nav-link  link" to="/services">
-                Services
+            <li class="nav-item">
+              <Link className="nav-link  link" to="/gallery">
+                Gallery
               </Link>
-            </li> */}
-
+            </li>
             <li class="nav-item">
               <a className="nav-link  link" href="/contact">
                 Contact Us
