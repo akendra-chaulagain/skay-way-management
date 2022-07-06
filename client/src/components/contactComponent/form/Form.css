@@ -1,5 +1,5 @@
 .form {
-  background-color: #100332;
+  background-color: #192D52;
   padding: 8vh;
 }
 
@@ -75,7 +75,8 @@
   margin-bottom: 10px;
 }
 .contactUsIconItem {
-  box-shadow: rgba(255, 255, 255, 0.15) 0px 5px 15px 0px;
+ box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  background-color: rgba(4, 9, 30, 0.7);
   margin-top: 20px;
   color: gray;
 }

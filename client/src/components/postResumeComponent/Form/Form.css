@@ -3,6 +3,7 @@
   height: auto;
   padding-bottom: 10vh;
   /* background-color: #192D52; */
+  background-color: #192d52;
   padding: 8vh;
 }
 .postResumeTitle {
@@ -10,12 +11,14 @@
   justify-content: center;
   font-weight: 600;
   font-size: 27px;
+  color: white;
 }
 
 .container-wrapper h3 {
   font-size: 20px;
   margin-top: 20px;
   font-weight: 600;
+  color: white;
 }
 
 /* country applied for */
@@ -31,12 +34,14 @@
 .inputItem label {
   font-size: 16px;
   margin-top: 10px;
+  color: white;
 }
 
 .personaldetailtext {
   font-size: 18px;
   margin-top: 15px;
   font-weight: 600;
+  color: white;
 }
 .inputItem textarea {
   width: 100%;
@@ -55,6 +60,7 @@
 .photoInputText label {
   font-size: 14px;
   margin-top: 10px;
+  color: white;
 }
 
 /* language experience */
@@ -62,15 +68,18 @@
   font-size: 18px;
   margin-top: 20px;
   font-weight: 600;
+  color: white;
 }
 .languagename {
   font-weight: 600;
   font-size: 15px;
   margin-top: 22px;
+  color: white;
 }
 .languageItem label {
   font-size: 14px;
   font-weight: 600;
+  color: white;
 }
 .languageItem select {
   width: 100%;
@@ -86,11 +95,16 @@
   font-size: 18px;
   margin-top: 30px;
   font-weight: 600;
+  color: white;
 }
 .educationWrapper {
   display: flex;
   justify-content: space-between;
   margin-top: 10px;
+}
+.educationIrem label {
+  color: white;
+  margin-left: 5px;
 }
 
 /* work expperience */
@@ -101,6 +115,7 @@
   font-size: 18px;
   margin-top: 20px;
   font-weight: 600;
+  color: white;
 }
 .workExpWrapper {
   display: flex;
@@ -113,6 +128,7 @@
 .workExpWrapper .workExpItem h4 {
   font-size: 16px;
   margin-top: 10px;
+  color: white;
 }
 
 /* others skills */

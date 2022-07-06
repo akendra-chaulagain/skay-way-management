@@ -8,10 +8,11 @@ import Contact from "./pages/contact/Contact";
 import Home from "./pages/home/Home";
 import PostResume from "./pages/postResume/PostResume";
 import DocumentPage from "./pages/documentPage/DocumentPage";
-import Service from "./pages/service/Service";
 import AboutNepal from "./pages/AboutNepal/AboutNepal";
 import WhyNepalese from "./pages/whyNepalese/WhyNepalese";
 import Gallery from "./pages/Gallery/Gallery";
+import Job from "./pages/Job/Job";
+import ApplyForm from "./pages/applyForm/ApplyForm";
 
 const App = () => {
   return (
@@ -37,6 +38,10 @@ const App = () => {
         <Route path="/about/why_nepalese" element={<WhyNepalese />} />
         {/* gallery */}
         <Route path="/gallery" element={<Gallery />} />
+        {/* job */}
+        <Route path="/job" element={<Job />} />
+        {/* apply form */}
+        <Route path="/job/apply/:id" element={<ApplyForm />} />
       </Routes>
     </>
   );

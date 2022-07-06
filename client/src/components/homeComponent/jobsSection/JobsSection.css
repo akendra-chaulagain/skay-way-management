@@ -26,10 +26,10 @@
 }
 
 .jobImg img {
-  height: 120px;
+  height: 130px;
   width: 150px;
   border-radius: 10px;
-  padding: 4px;
+  padding: 2px;
 }
 
 /* .jobDesc */
@@ -47,6 +47,33 @@
 }
 .jobDesc p {
   color: white;
+}
+.jobDesc button {
+  padding: 3px 10px;
+  width: 40%;
+  border: none;
+  outline: none;
+  background: transparent;
+  border-radius: 5px;
+  font-size: 13px;
+  background-color: #4636ff;
+  color: white;
+}
+.jobDesc button:hover {
+  color: black;
+  background-color: white;
+}
+.viewAllJob p{
+  display: flex;
+  justify-content: end;
+  color: white;
+  margin-top:15px;
+  font-weight: 600;
+  cursor: pointer;
+}
+.viewAllJob p:hover{
+  text-decoration: underline;
+  color: #4636ff;
 }
 
 @media only screen and (max-width: 990px) {

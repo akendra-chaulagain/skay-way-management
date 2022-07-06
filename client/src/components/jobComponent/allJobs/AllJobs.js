@@ -1,14 +1,13 @@
 import React from "react";
-import "./JobsSection.css";
-import { job } from "./jobData";
 import { Link } from "react-router-dom";
+import { job } from "./jobData";
 
-const JobsSection = () => {
+const AllJobs = () => {
   return (
     <>
       <div className="jobSection">
         <div className="container">
-          <div className="jobSectionTitle">New Jobs</div>
+          <div className="jobSectionTitle">All Available Jobs</div>
 
           <div className="row ">
             {job.map((item) => (
@@ -29,11 +28,6 @@ const JobsSection = () => {
                 </div>
               </div>
             ))}
-            <div className="viewAllJob">
-              <Link className="link" to="/job">
-                <p>View All</p>
-              </Link>
-            </div>
           </div>
         </div>
       </div>
@@ -41,4 +35,4 @@ const JobsSection = () => {
   );
 };
 
-export default JobsSection;
+export default AllJobs;

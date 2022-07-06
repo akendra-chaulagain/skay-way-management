@@ -20,6 +20,7 @@ const Navbar = () => {
                 Home
               </Link>
             </li>
+
             <li class="nav-item dropdown">
               <Link className=" nav-link  link dropbtn" to="/about">
                 About Us
@@ -32,6 +33,12 @@ const Navbar = () => {
                   Why Nepalese{" "}
                 </Link>
               </div>
+            </li>
+            {/* jobs */}
+            <li class="nav-item">
+              <Link className="nav-link  link" to="/Job">
+                Job
+              </Link>
             </li>
 
             <li class="nav-item ">

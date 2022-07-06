@@ -1,0 +1,67 @@
+.applyForm {
+  padding: 8vh;
+  height: auto;
+  width: 100%;
+}
+
+.formWrapper {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  align-items: center;
+}
+
+
+.applyFormContainer {
+  height: auto;
+  width: 40%;
+  padding: 30px 40px ;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  border-radius: 10px;
+}
+
+.applyFormContainer h3{
+    font-weight: 600;
+    display: flex;
+    justify-content: center;
+}
+.applyFormContainer p{
+    display: flex;
+    justify-content: center;
+    font-weight: 600;
+}
+
+.applyInputItem,
+.applyInputItemCv label {
+  font-weight: 600;
+  font-size: 16px;
+  margin-top: 10px;
+}
+.applyInputItem input {
+  width: 98%;
+  height: 40px;
+  border-bottom: 5px;
+  outline-color: blue;
+  border: none;
+  border: 1px solid gray;
+  border-radius: 5px;
+  padding: 3px 10px;
+  margin-top: 3px;
+}
+.formSubmitButton button {
+  padding: 4px 30px;
+  border: none;
+  outline: none;
+  border: 2px solid #4636ff;
+  background: transparent;
+  border-radius: 5px;
+  font-size: 15px;
+  background-color: #4636ff;
+  color: white;
+  margin-top: 20px;
+}
+
+.formSubmitButton button:hover {
+  color: black;
+  background-color: white;
+}
