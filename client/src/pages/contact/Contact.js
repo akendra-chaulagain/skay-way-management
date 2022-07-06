@@ -1,6 +1,7 @@
-import React from 'react'
-import "./Contact.css"
+import React from "react";
+import "./Contact.css";
 import ContactSlider from "../../components/contactComponent/contactSlider/ContactSlider";
+import Form from "../../components/contactComponent/form/Form";
 
 const Contact = () => {
   return (
@@ -12,11 +13,11 @@ const Contact = () => {
             <ContactSlider />
           </div>
           {/* form */}
-        
+          <Form />
         </div>
       </div>
     </>
   );
-}
+};
 
-export default Contact
+export default Contact;

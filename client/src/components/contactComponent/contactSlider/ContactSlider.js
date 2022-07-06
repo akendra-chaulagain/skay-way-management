@@ -1,5 +1,5 @@
-import React from 'react'
-import { Link } from 'react-router-dom';
+import React from "react";
+import { Link } from "react-router-dom";
 import triangle from "../../../assets/images/slider/triangle.png";
 import triangle2 from "../../../assets/images/slider/dotted-square.png";
 import triangle3 from "../../../assets/images/slider/solid-square.png";
@@ -39,7 +39,7 @@ const ContactSlider = () => {
                       Contact Us
                     </h1>
                     <p>
-                      <Link className="link" to="/">
+                      <Link className="link" to="/sky-way">
                         <span className="span-1">Home</span>
                       </Link>
                       |<span>Contact us</span>
@@ -58,6 +58,6 @@ const ContactSlider = () => {
       </section>
     </>
   );
-}
+};
 
-export default ContactSlider
+export default ContactSlider;

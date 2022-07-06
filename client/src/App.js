@@ -23,7 +23,7 @@ const App = () => {
         {/* post resume */}
         <Route path="/post_resume" element={<PostResume />} />
         {/* serives */}
-        <Route path="/services" element={<Service />} />
+        {/* <Route path="/services" element={<Service />} /> */}
         {/* contact us */}
         <Route path="/contact" element={<Contact />} />
         {/* document */}

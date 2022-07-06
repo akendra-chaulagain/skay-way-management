@@ -1,0 +1,148 @@
+.form {
+  background-color: #100332;
+  padding: 8vh;
+}
+
+/* left side form */
+.contact-form {
+  margin-top: 5vh;
+}
+.formTitle {
+  color: white;
+  font-weight: 600;
+  font-size: 35px;
+}
+
+.contact-form input {
+  width: 100%;
+  height: 44px;
+  font-size: 18px;
+  border: none;
+  outline: none;
+  padding: 4px 10px;
+  border-radius: 5px;
+}
+
+.contact-form input::placeholder {
+  font-size: 14px;
+  padding: 0px 0px 6px 0px;
+}
+.contact-form label {
+  color: white;
+  font-weight: 600;
+}
+
+.contact-form textarea {
+  width: 100%;
+  font-size: 18px;
+  border: none;
+  outline: none;
+  height: 20vh;
+  border: 1px solid blue;
+  padding: 4px 10px;
+  border-radius: 5px;
+}
+
+.contact-form textarea::placeholder {
+  font-size: 14px;
+  padding: 0px 0px 6px 0px;
+}
+
+.submmitButton button {
+  padding: 5px 20px;
+  border: none;
+  outline: none;
+  border: 2px solid #4636ff;
+  background: transparent;
+  border-radius: 5px;
+  font-size: 16px;
+  background-color: #4636ff;
+  color: white;
+  margin-top: 10px;
+}
+
+.submmitButton button:hover {
+  color: black;
+  background-color: white;
+}
+
+/* right side content */
+.rightSideFormData {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  border-radius: 7px;
+  margin-bottom: 10px;
+}
+.contactUsIconItem {
+  box-shadow: rgba(255, 255, 255, 0.15) 0px 5px 15px 0px;
+  margin-top: 20px;
+  color: gray;
+}
+
+.rightSideFormData .fa-location-pin,
+.rightSideFormData .fa-phone,
+.rightSideFormData .fa-envelope {
+  color: white;
+  font-size: 20px;
+  margin-top: 20px;
+}
+.rightSideFormData h5 {
+  font-weight: 600;
+  font-size: 23px;
+  margin-top: -15px;
+  color: white;
+}
+.rightSideFormData h6 {
+  font-size: 16px;
+  padding-bottom: 20px;
+  font-weight: 500;
+  color: white;
+}
+/* map container */
+.mapContainer {
+  height: auto;
+  margin-bottom: 15vh;
+}
+.mapContainer h1 {
+  font-size: 40px;
+  font-weight: 700;
+  letter-spacing: 7px;
+}
+
+@media only screen and (max-width: 1000px) {
+  .form {
+    margin-top: 0vh;
+  }
+  .form h3 {
+    margin-top: 20px;
+    font-size: 23px;
+  }
+  .contact-form {
+    margin-top: 2vh;
+  }
+
+  .rightSideFormData {
+    margin-top: 0vh;
+  }
+  /* icons */
+  .rightSideFormData .fa-location-pin,
+  .fa-phone,
+  .fa-envelope {
+    color: red;
+    font-size: 17px;
+    margin-top: 20px;
+  }
+  .rightSideFormData h5 {
+    font-size: 17px;
+    font-weight: 500;
+  }
+  .rightSideFormData h6 {
+    font-size: 12px;
+  }
+  /* map container */
+  .mapContainer {
+    height: auto;
+    margin-bottom: 6vh;
+  }
+}

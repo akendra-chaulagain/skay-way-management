@@ -11,7 +11,14 @@ const Map = () => {
             <div className="col-xl-12">
               <div className="contact__map">
                 <div className="mapurl">
-                  <Iframe src="https://maps.google.com/maps?hl=en&amp;q=Dhaka+()&amp;ie=UTF8&amp;t=&amp;z=10&amp;iwloc=B&amp;output=embed"></Iframe>
+                  <Iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3531.8848484966197!2d85.32761721546599!3d27.720841431504805!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39eb1907b0522ead%3A0x392af32fe87dd0ea!2sRadiant%20Infotech%20Nepal%20Pvt.%20Ltd.!5e0!3m2!1sen!2snp!4v1657083856795!5m2!1sen!2snp"
+                    width="100%"
+                    height="450"
+                    allowfullscreen=""
+                    loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"
+                  ></Iframe>
                 </div>
 
                 <div className="contact__wrapper d-md-flex justify-content-between">
