@@ -2,11 +2,22 @@
   height: auto;
   padding: 8vh;
   width: 100%;
-  background-color: #192D52;
+  background-color: #192d52;
 }
 
-.aboutNepalDescData p{
-    color: white;
-    font-size: 18px;
-    text-align: justify;
+.aboutNepalDescData p {
+  color: white;
+  font-size: 18px;
+  text-align: justify;
+}
+@media only screen and (max-width: 990px) {
+  .nepalDesc {
+    padding: 4vh 0vh 2vh 0vh;
+  }
+  @media only screen and (max-width: 768px) {
+    .aboutNepalDescData p {
+      color: white;
+      font-size: 17px;
+    }
+  }
 }

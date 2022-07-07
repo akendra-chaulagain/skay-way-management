@@ -2,6 +2,7 @@ import React from "react";
 import "./Contact.css";
 import ContactSlider from "../../components/contactComponent/contactSlider/ContactSlider";
 import Form from "../../components/contactComponent/form/Form";
+import Footer from "../../components/Footer/Footer"
 
 const Contact = () => {
   return (
@@ -14,6 +15,7 @@ const Contact = () => {
           </div>
           {/* form */}
           <Form />
+          <Footer/>
         </div>
       </div>
     </>

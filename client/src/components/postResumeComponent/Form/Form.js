@@ -43,7 +43,7 @@ const Form = () => {
                   </div>
                   {/* password no */}
                   <div className="col-md-6 inputItem">
-                    <label htmlFor="">Password No</label>
+                    <label htmlFor="">Passport No</label>
                     <br />
                     <input type="text" />
                   </div>

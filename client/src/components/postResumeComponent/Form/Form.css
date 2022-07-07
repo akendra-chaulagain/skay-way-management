@@ -10,7 +10,7 @@
   display: flex;
   justify-content: center;
   font-weight: 600;
-  font-size: 27px;
+  font-size: 30px;
   color: white;
 }
 
@@ -72,7 +72,7 @@
 }
 .languagename {
   font-weight: 600;
-  font-size: 15px;
+  font-size: 20px;
   margin-top: 22px;
   color: white;
 }
@@ -143,7 +143,7 @@
 .othersSkills textarea {
   width: 100%;
   height: 10vh;
-  border-radius: 10px;
+  border-radius: 5px;
   outline-color: #4636ff;
 }
 /* submit button */
@@ -156,7 +156,7 @@
   outline: none;
   border: 2px solid #4636ff;
   background: transparent;
-  border-radius: 10px;
+  border-radius: 5px;
   font-size: 16px;
   background-color: #4636ff;
   color: white;
@@ -165,3 +165,45 @@
   color: white;
   background-color: black;
 }
+
+@media only screen and (max-width: 990px) {
+  .resumeForm {
+    padding: 4vh 0vh 2vh 0vh;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .postResumeTitle {
+    font-size: 25px;
+  }
+
+  .container-wrapper h3 {
+    font-size: 19px;
+  }
+  .inputItem label {
+    font-size: 14px;
+  }
+  .inputItem input {
+    height: 37px;
+  }
+  .languagename {
+    display: flex;
+    justify-content: center;
+  }
+  .inputItemSelect select {
+    width: 100%;
+  }
+  .languagename{
+    font-size: 17px;
+  }
+}
+
+@media only screen and (max-width: 550px) {
+.submmitBtn button {
+  padding: 4px 20px;
+  font-size: 14px;
+}
+}
+
+
+

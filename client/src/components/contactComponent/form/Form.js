@@ -20,7 +20,7 @@ const Form = () => {
                   <input name="name" type="text" />
                 </div>
                 {/* email */}
-                <div className="form-field col-lg-6 ">
+                <div className="form-field email-field col-lg-6 ">
                   <label htmlFor="">Email</label>
                   <input name="email" type="email" />
                 </div>

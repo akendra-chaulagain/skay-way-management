@@ -32,16 +32,16 @@ const AboutSlider = () => {
             >
               {/* about us slider content */}
               <div className="row">
-                <div className="col-xl-9 col-lg-9 col-md-10 col-sm-10">
+                <div className="col-xl-12 col-lg-12 col-md-12 col-sm-12">
                   <div className="topSlider__content">
                     <h1 data-animation="fadeInUp" data-delay=".5s">
-                      Contact Us
+                      About Us
                     </h1>
                     <p>
                       <Link className="link" to="/sky-way">
                         <span className="span-1">Home</span>
                       </Link>
-                      |<span>Contact Us</span>
+                      |<span>About Us</span>
                     </p>
                     <div
                       className="topSlider__btn"
