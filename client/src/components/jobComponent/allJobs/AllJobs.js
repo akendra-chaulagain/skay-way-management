@@ -1,6 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import { job } from "./jobData";
+import "./AllJobs.css"
 
 const AllJobs = () => {
   return (
@@ -19,10 +20,10 @@ const AllJobs = () => {
                   <div className="jobDesc">
                     <h4>{item.title}</h4>
                     <p>
-                      Lorem ipsum dolor sit, amet consectetur adipisicing elit.{" "}
+                      Lorem ipsum dolor sit, amet .
                     </p>
                     <Link to="/job/apply/:id">
-                      <button>Apply Now</button>
+                      <span>Apply Now</span>
                     </Link>
                   </div>
                 </div>

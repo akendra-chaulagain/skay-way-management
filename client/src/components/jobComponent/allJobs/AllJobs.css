@@ -1,1 +1,22 @@
 /* css of thia conponent is same as jobs section from home component */
+.jobSectionTitle {
+  color: white;
+  display: flex;
+  justify-content: center;
+  font-weight: 600;
+  font-size: 30px;
+  margin-bottom: 10px;
+}
+
+@media only screen and (max-width: 990px) {
+  .jobSectionTitle {
+    font-size: 25px;
+    margin-top: 10px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .jobSectionTitle {
+    font-size: 22px;
+  }
+}

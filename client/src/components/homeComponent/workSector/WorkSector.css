@@ -47,14 +47,14 @@
    
   }
   .sectorTitle {
-    font-size: 24px;
+    font-size: 25px;
   }
 }
 
 @media only screen and (max-width: 768px) {
  
   .sectorTitle {
-    font-size: 20px;
+    font-size: 22px;
   }
   .sector__thumb h3 {
   font-size: 15px;

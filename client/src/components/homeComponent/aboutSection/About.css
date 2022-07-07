@@ -1,4 +1,4 @@
-.about__area {
+.aboutUsData {
   /* margin: 10vh 0vh 10vh 0vh; */
   background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)),
     url("https://images.pexels.com/photos/1181304/pexels-photo-1181304.jpeg?auto=compress&cs=tinysrgb&w=1460&h=1250&dpr=1");
@@ -10,31 +10,32 @@
   padding: 8vh;
 }
 
-.about__thumb .imageOne {
+.aboutUsDataImg img {
   height: 400px;
-  width: 550px;
-  border-radius: 10px;
+  width: 100%;
+  border-radius: 5px;
 }
 
-/* title */
-.abouitsection__title h2 {
-  font-size: 30px;
-  font-weight: 900;
-  line-height: 1.1;
-  color: whitesmoke;
-}
-
-.about__content p {
-  font-size: 18px;
-  line-height: 26px;
+.aboutUsDataname {
+  display: flex;
+  justify-content: center;
   color: white;
+  font-size: 30px;
+  font-weight: 600;
+  letter-spacing: 2px;
+  margin-bottom: 15px;
+}
+
+.aboutUsDataContent p {
+  color: white;
+  font-size: 18px;
   text-align: justify;
 }
-
-/* section title */
-
-.about__content button {
-  padding: 6px 14px;
+.secondData {
+  margin-top: 80px;
+}
+.aboutUsDataContent button {
+  padding: 4px 20px;
   border: none;
   outline: none;
   border: 2px solid #4636ff;
@@ -44,66 +45,71 @@
   background-color: #4636ff;
   color: white;
 }
-.about__content button:hover {
+.aboutUsDataContent button:hover {
   color: black;
   background-color: white;
 }
 
-@media only screen and (max-width: 991px) {
-  .about__area {
+@media only screen and (max-width: 990px) {
+  .aboutUsData {
     padding: 2vh 0vh 2vh 0vh;
+    overflow: hidden;
   }
-  .about__thumb .imageOne {
-    height: 400px;
-    width: 320px;
-    object-fit: cover;
+  .aboutUsDataImg {
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
-  .aboutDataText {
-    width: 50%;
-  }
-
-  .abouitsection__title h2 {
-    font-size: 26px;
-  }
-  .about__content p {
-    font-size: 16px;
-  }
-  .about__content button {
-    padding: 5px 10px;
-    font-size: 14px;
-  }
-}
-@media only screen and (max-width: 768px) {
-  .about__area {
-    width: 100%;
-  }
-  .about__thumb .imageOne {
+  .aboutUsDataImg img {
     height: 40vh;
     width: 100%;
-    border-radius: 20px;
-    object-fit: contain;
+    object-fit: fill;
   }
-  .aboutDataText {
+
+  .aboutUsDataname {
+    font-size: 24px;
+  }
+  .aboutUsDataContent {
+    width: 50%;
+  }
+  .aboutUsDataContent p {
+    font-size: 16px;
+  }
+}
+
+@media only screen and (max-width: 779px) {
+  .aboutUsDataImg {
     width: 100%;
-    height: auto;
+    display: flex;
+    justify-content: center;
   }
-  .abouitsection__title h2 {
-    font-size: 23px;
-    margin-top: 10px;
+  .aboutUsDataImg img {
+    width: 100%;
   }
-  .about__content p {
+  .aboutUsDataContent {
+    width: 100%;
+  }
+  .aboutUsDataname {
+    font-size: 20px;
+  }
+  .aboutUsDataContent p {
     font-size: 15px;
   }
-  .about__content button {
-    padding: 5px 9px;
+  .secondImg img {
+    width: 100%;
+  }
+  .secondData {
+    margin-top: 4px;
+  }
+  .aboutUsDataContent button {
+    padding: 4px 15px;
     font-size: 13px;
   }
 }
 
 @media only screen and (max-width: 512px) {
-  .about__thumb img {
-    width: 100%;
-    height: auto;
+  .aboutUsDataImg img {
+    height: 250px;
+    width: 350px;
   }
-
 }

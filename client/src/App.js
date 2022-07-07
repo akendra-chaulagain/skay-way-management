@@ -13,12 +13,14 @@ import WhyNepalese from "./pages/whyNepalese/WhyNepalese";
 import Gallery from "./pages/Gallery/Gallery";
 import Job from "./pages/Job/Job";
 import ApplyForm from "./pages/applyForm/ApplyForm";
+import Sidebar from "./components/header/sidebar/Sidebar";
 
 const App = () => {
   return (
     <>
       <MainTopbar />
       <Navbar />
+      <Sidebar/>
       <Routes>
         {/* home page */}
         <Route path="/sky-way" element={<Home />} />

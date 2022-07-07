@@ -29,4 +29,22 @@ body {
   font-weight: 600;
   margin: 10px;
 }
+@media only screen and (max-width: 990px) {
+  .section__title {
+    font-size: 25px;
+  }
+}
 
+@media only screen and (max-width: 768px) {
+  .section__title {
+    justify-content: center;
+    font-size: 23px;
+  }
+}
+
+@media only screen and (max-width: 550px) {
+  .section__title {
+    justify-content: center;
+    font-size: 22px;
+  }
+}

@@ -1,0 +1,98 @@
+/* sidebar top conttainer */
+.sidebar {
+  display: none;
+}
+
+@media only screen and (max-width: 990px) {
+  .sidebar {
+    display: block;
+    width: 100%;
+  }
+  .sidebarTopContainer {
+    box-shadow: 0px 6px 13px -1px rgba(0, 0, 0, 0.14);
+    height: 9vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  /* open nav bar icon */
+  .menuIconContainer i {
+    font-size: 25px;
+    color: #192D52;
+    margin-left: 30px;
+  }
+
+  /* company logo */
+
+  .companyLogoSidebar img {
+    height: 6vh;
+    margin-right: 10px;
+  }
+
+  .topBarSliderLogo img{
+    height: 5vh;
+  }
+
+  /* side bar active */
+  .side-menu {
+    background-color: white;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    top: 0px;
+    left: -100%;
+    transition: 0.3s;
+    z-index: 999;
+    position: fixed;
+  }
+  .side-menu.active {
+    left: 0%;
+  }
+
+  /* slider top bar */
+  .topBarSliderLogo {
+    height: 10vh;
+    margin-top: 15px;
+  }
+
+  .side-menu.active .topBarSliderLogo {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+  }
+
+  /* close icon */
+  .side-menu.active .closeNavIcon i {
+    font-size: 20px;
+    color: #192D52;
+    cursor: pointer;
+    padding: 5px;
+  }
+
+  .sidebar-nav {
+    list-style: none;
+    height: auto;
+    width: 270px;
+    height: 100vh;
+    margin-top: -15px;
+  }
+  /* side bar menu items */
+  .sidebar-item {
+    position: relative;
+    padding: 20px 10px 0px 0px;
+    margin-left: 5%;
+  }
+
+  .sidebar-item a:hover {
+    color: #ffaeaf;
+  }
+}
+
+
+
+
+
+@media only screen and (max-width: 550px) {
+  .sidebar-item a {
+    text-decoration: none;
+    font-size: 14px;
+  }
+}

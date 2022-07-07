@@ -2,6 +2,7 @@
   padding: 8vh;
   height: auto;
   width: 100%;
+  overflow: hidden;
 }
 
 .formWrapper {
@@ -11,24 +12,23 @@
   align-items: center;
 }
 
-
 .applyFormContainer {
   height: auto;
   width: 40%;
-  padding: 30px 40px ;
+  padding: 30px 40px;
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
   border-radius: 10px;
 }
 
-.applyFormContainer h3{
-    font-weight: 600;
-    display: flex;
-    justify-content: center;
+.applyFormContainer h3 {
+  font-weight: 600;
+  display: flex;
+  justify-content: center;
 }
-.applyFormContainer p{
-    display: flex;
-    justify-content: center;
-    font-weight: 600;
+.applyFormContainer p {
+  display: flex;
+  justify-content: center;
+  font-weight: 600;
 }
 
 .applyInputItem,
@@ -64,4 +64,37 @@
 .formSubmitButton button:hover {
   color: black;
   background-color: white;
+}
+@media only screen and (max-width: 1000px) {
+  .applyForm {
+    padding: 4vh 0vh 2vh 0vh;
+  }
+  .applyFormContainer {
+    width: 70%;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .applyFormContainer {
+    width: 90%;
+  }
+
+  .applyFormContainer h3 {
+    font-size: 22px;
+  }
+  .applyFormContainer p {
+    font-size: 17px;
+  }
+
+  .applyInputItem,
+  .applyInputItemCv label {
+    font-size: 14px;
+  }
+  .applyInputItem input {
+    height: 37px;
+  }
+  .formSubmitButton button {
+    padding: 4px 20px;
+    font-size: 14px;
+  }
 }

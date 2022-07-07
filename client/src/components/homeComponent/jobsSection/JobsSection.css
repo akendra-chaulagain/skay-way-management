@@ -1,19 +1,9 @@
 .jobSection {
   height: auto;
   width: 100%;
-  background-size: cover;
-  flex-direction: column;
   background-color: #192d52;
   padding: 8vh;
   overflow: hidden;
-}
-.jobSectionTitle {
-  display: flex;
-  justify-content: center;
-  font-size: 30px;
-  font-weight: 900;
-  margin: 0px 0px 20px 0px;
-  color: white;
 }
 
 .jobSectionData {
@@ -25,19 +15,19 @@
   padding: 10px;
 }
 
+.jobImg {
+  display: flex;
+}
 .jobImg img {
-  height: 130px;
-  width: 150px;
+  width: 120px;
   border-radius: 10px;
   padding: 2px;
+  object-fit: cover;
 }
 
 /* .jobDesc */
 .jobDesc {
   margin-left: 10px;
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
 }
 .jobDesc h4 {
   color: white;
@@ -48,20 +38,11 @@
 .jobDesc p {
   color: white;
 }
-.jobDesc button {
-  padding: 3px 10px;
-  width: 40%;
-  border: none;
-  outline: none;
-  background: transparent;
-  border-radius: 5px;
-  font-size: 13px;
-  background-color: #4636ff;
-  color: white;
+.jobDesc span {
+  font-size: 15px;
 }
-.jobDesc button:hover {
-  color: black;
-  background-color: white;
+.jobDesc span:hover {
+  color: white;
 }
 .viewAllJob p {
   display: flex;
@@ -76,48 +57,38 @@
   color: #4636ff;
 }
 
-@media only screen and (max-width: 1300px) {
-  .jobImg {
-  }
-}
-
 @media only screen and (max-width: 990px) {
   .jobSection {
-    padding: 4vh 0vh 2vh 0vh;
+    padding: 2vh 0vh 4vh 0vh;
     width: 100%;
     overflow: hidden;
   }
-  .jobSectionData span {
-    font-size: 21px;
-  }
-  .jobSectionTitle {
-    font-size: 24px;
-  }
-  .jobSectionData p {
-    font-size: 16px;
-  }
 }
 @media only screen and (max-width: 778px) {
-  .jobSection {
-    overflow: hidden;
+  .jobDesc h4 {
+    color: white;
+    font-size: 17px;
   }
-  .jobSectionTitle {
-    font-size: 20px;
+  .jobDesc p {
+    color: white;
+    font-size: 14px;
   }
-  .jobSectionData span {
-    font-size: 18px;
+  .jobImg img {
+    width: 100px;
+    height: auto;
   }
-
-  .jobSectionContainer p {
-    font-size: 15px;
-  }
+  .jobDesc span {
+  font-size: 13px;
+}
 }
 @media only screen and (max-width: 500px) {
-  .jobSectionData span {
-    font-size: 18px;
+  .jobDesc h4 {
+    color: white;
+    font-size: 16px;
   }
 
-  .jobSectionContainer p {
-    font-size: 12px;
+ 
+  .viewAllJob p {
+    font-size: 13px;
   }
 }

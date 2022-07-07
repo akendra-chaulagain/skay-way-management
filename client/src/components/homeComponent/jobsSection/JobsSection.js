@@ -19,11 +19,9 @@ const JobsSection = () => {
                   </div>
                   <div className="jobDesc">
                     <h4>{item.title}</h4>
-                    <p>
-                      Lorem ipsum dolor sit, amet consectetur adipisicing elit.{" "}
-                    </p>
+                    <p>Lorem ipsum dolor sit, amet</p>
                     <Link to="/job/apply/:id">
-                      <button>Apply Now</button>
+                      <span>Apply Now</span>
                     </Link>
                   </div>
                 </div>
@@ -31,7 +29,7 @@ const JobsSection = () => {
             ))}
             <div className="viewAllJob">
               <Link className="link" to="/job">
-                View All
+                <p>View All</p>
               </Link>
             </div>
           </div>

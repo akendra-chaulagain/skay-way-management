@@ -6,21 +6,17 @@ import { Link } from "react-router-dom";
 const About = () => {
   return (
     <>
-      <section class="about__area ">
-        <div class="container aboutWrapper">
-          <div class="row">
-            <div class=" col-md-6 col-xs-12">
-              <div class="about__thumb">
-                <img className="imageOne" src={about} alt="" />
+   
+      <div className="aboutUsData">
+        <div className="container ">
+          <div className="aboutUsDataWrapper">
+            <div className="row">
+              {/* messagfe from chairman */}
+              <div className="col-lg-6 col-md-6 aboutUsDataImg">
+                <img src={about} alt="about_aboutUsData" />
               </div>
-            </div>
-            <div
-              class=" col-md-5 col-xs-12 aboutDataText"
-            >
-              <div class="about__content">
-                <div class="section__title">
-                  ABOUT US
-                </div>
+              <div className="col-lg-6 col-md-6 aboutUsDataContent">
+                <div className="section__title">About Us</div>
                 <p>
                   Sky Way Management, A last resort of Manpower requirement to
                   its clients, has started its service since 2013 then
@@ -41,7 +37,7 @@ const About = () => {
             </div>
           </div>
         </div>
-      </section>
+      </div>
     </>
   );
 };

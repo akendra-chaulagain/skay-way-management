@@ -46,6 +46,18 @@ const images = [
     thumbnail:
       "https://images.pexels.com/photos/11789773/pexels-photo-11789773.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load",
   },
+  {
+    original: "https://picsum.photos/id/1018/1000/600/",
+    thumbnail: "https://picsum.photos/id/1018/250/150/",
+  },
+  {
+    original: "https://picsum.photos/id/1015/1000/600/",
+    thumbnail: "https://picsum.photos/id/1015/250/150/",
+  },
+  {
+    original: "https://picsum.photos/id/1019/1000/600/",
+    thumbnail: "https://picsum.photos/id/1019/250/150/",
+  },
 ];
 
 const GalleryImg = () => {
@@ -57,7 +69,7 @@ const GalleryImg = () => {
             <ImageGallery
               items={images}
               originalClass="image"
-              showNav={false}
+              // showNav={false}
               thumbnailPosition={"left"}
               showFullscreenButton={false}
               showPlayButton={false}

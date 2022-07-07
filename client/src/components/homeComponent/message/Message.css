@@ -37,9 +37,15 @@
    padding: 2vh 0vh 2vh 0vh;
     overflow: hidden;
   }
+  .messageImg{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
   .messageImg img {
-    height: 320px;
-    width: 350px;
+    height: 400px;
+    width: 100%;
+    object-fit: cover;
   }
 
   .messagename {
@@ -61,6 +67,7 @@
   }
   .messageImg img{
     width: 100%;
+    height: 30vh;
   }
   .messageContent {
     width: 100%;

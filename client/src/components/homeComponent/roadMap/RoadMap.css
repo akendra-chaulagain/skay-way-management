@@ -4,7 +4,7 @@
   background-size: cover;
   flex-direction: column;
   background-color: #192d52;
-  padding: 8vh;
+  padding: 4vh 8vh 8vh 8vh;
   overflow: hidden;
 }
 .roadMapTitle {
