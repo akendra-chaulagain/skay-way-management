@@ -18,7 +18,7 @@
   /* open nav bar icon */
   .menuIconContainer i {
     font-size: 25px;
-    color: #192D52;
+    color: #192d52;
     margin-left: 30px;
   }
 
@@ -29,7 +29,7 @@
     margin-right: 10px;
   }
 
-  .topBarSliderLogo img{
+  .topBarSliderLogo img {
     height: 5vh;
   }
 
@@ -62,7 +62,7 @@
   /* close icon */
   .side-menu.active .closeNavIcon i {
     font-size: 20px;
-    color: #192D52;
+    color: #192d52;
     cursor: pointer;
     padding: 5px;
   }
@@ -84,11 +84,24 @@
   .sidebar-item a:hover {
     color: #ffaeaf;
   }
+
+  /* about  plus icon */
+  .aboutItem {
+    display: flex;
+    justify-content: space-between;
+  }
+  .fa-plus{
+    display: flex;
+    justify-content: center;
+  }
+  .fa-plus:before {
+    font-size: 15px;
+  }
+  .collapse{
+    background-color: aqua;
+    padding: 10px;
+  }
 }
-
-
-
-
 
 @media only screen and (max-width: 550px) {
   .sidebar-item a {

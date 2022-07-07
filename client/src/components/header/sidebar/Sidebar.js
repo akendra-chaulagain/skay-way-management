@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { useState } from "react";
 import "./Sidebar.css";
 import { Link } from "react-router-dom";
@@ -7,6 +7,11 @@ import Logo from "../../../assets/logo.png";
 const Sidebar = () => {
   const [sidebar, setSidebar] = useState(true);
   const showSidebarr = () => setSidebar(!sidebar);
+
+  useEffect(() => {
+    // 👇️ scroll to top on page load
+    window.scrollTo({ top: 0, left: 0, behavior: "smooth" });
+  }, []);
   return (
     <>
       {/* side bar top container */}
@@ -34,7 +39,7 @@ const Sidebar = () => {
               </div>
               <ul className="sidebar-nav">
                 {/* home page */}
-                <li className="sidebar-item" onClick={showSidebarr}>
+                <li className="sidebar-item ">
                   <Link
                     onClick={() => {
                       window.scrollTo({ top: 0, left: 0, behavior: "smooth" });
@@ -45,8 +50,9 @@ const Sidebar = () => {
                     HOME
                   </Link>
                 </li>
+
                 {/* About */}
-                <li className="sidebar-item" onClick={showSidebarr}>
+                <li className="sidebar-item aboutItem">
                   <Link
                     onClick={() => {
                       window.scrollTo({ top: 0, left: 0, behavior: "smooth" });
@@ -56,9 +62,57 @@ const Sidebar = () => {
                   >
                     ABOUT US
                   </Link>
+                  {/* dropdown menu */}
+                  <div className="addIcon">
+                    <i
+                      className="fa-solid fa-plus"
+                      data-bs-toggle="collapse"
+                      href="#collapseExample"
+                     
+                      aria-expanded="false"
+                      aria-controls="collapseExample"
+                    ></i>
+                  </div>
                 </li>
+                {/* drop down item */}
+                <div className="collapse" id="collapseExample">
+                  <ul>
+                    {/* about Nepal */}
+                    <li className="collapse_item ">
+                      <Link
+                        onClick={() => {
+                          window.scrollTo({
+                            top: 0,
+                            left: 0,
+                            behavior: "smooth",
+                          });
+                        }}
+                        className=" sidebarDopbtn link"
+                        to="/about/about_nepal"
+                      >
+                        About Nepal
+                      </Link>
+                    </li>
+                    {/* why nepalese */}
+                    <li className="collapse_item ">
+                      <Link
+                        onClick={() => {
+                          window.scrollTo({
+                            top: 0,
+                            left: 0,
+                            behavior: "smooth",
+                          });
+                        }}
+                        className=" sidebarDopbtn link"
+                        to="/about/why_nepalese"
+                      >
+                        Why Nepalese
+                      </Link>
+                    </li>
+                  </ul>
+                </div>
                 {/* job */}
-                <li className="sidebar-item" onClick={showSidebarr}>
+                <li className="sidebar-item">
                   <Link
                     onClick={() => {
                       window.scrollTo({ top: 0, left: 0, behavior: "smooth" });
@@ -70,7 +124,7 @@ const Sidebar = () => {
                   </Link>
                 </li>
                 {/* document */}
-                <li className="sidebar-item " onClick={showSidebarr}>
+                <li className="sidebar-item ">
                   <Link
                     onClick={() => {
                       window.scrollTo({ top: 0, left: 0, behavior: "smooth" });
@@ -82,7 +136,7 @@ const Sidebar = () => {
                   </Link>
                 </li>
                 {/* post_resume*/}
-                <li className="sidebar-item" onClick={showSidebarr}>
+                <li className="sidebar-item">
                   <Link
                     onClick={() => {
                       window.scrollTo({ top: 0, left: 0, behavior: "smooth" });
@@ -94,7 +148,7 @@ const Sidebar = () => {
                   </Link>
                 </li>
                 {/* gallery*/}
-                <li className="sidebar-item" onClick={showSidebarr}>
+                <li className="sidebar-item">
                   <Link
                     onClick={() => {
                       window.scrollTo({ top: 0, left: 0, behavior: "smooth" });
@@ -106,7 +160,7 @@ const Sidebar = () => {
                   </Link>
                 </li>
                 {/* contact*/}
-                <li className="sidebar-item" onClick={showSidebarr}>
+                <li className="sidebar-item">
                   <Link
                     onClick={() => {
                       window.scrollTo({ top: 0, left: 0, behavior: "smooth" });

@@ -31,15 +31,7 @@ const Map = () => {
                           Ardmore, SA 19004
                         </p>
                       </li>
-                      <li>
-                        <h4>call us</h4>
-                        <p>
-                          <p>(404) 888 123 456</p>
-                        </p>
-                        <p>
-                          <p href="tel:(204)-888-234-674">(204) 888 234 674</p>
-                        </p>
-                      </li>
+                      
                       <li>
                         <h4>Email Address</h4>
                         <p>

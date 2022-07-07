@@ -36,7 +36,7 @@ const Slider = () => {
                     <span>
                       Sky-Way Management always deliver high quality service.
                     </span>
-                    <h1>Be Sure You Put Your Feet in Right <br /> Place.</h1>
+                    <h1>Be Sure You Put Your Feet in Right Place.</h1>
                     <div
                       className="slider__btn"
                       data-animation="fadeInUp"

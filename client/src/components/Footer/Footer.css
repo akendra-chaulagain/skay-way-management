@@ -4,17 +4,6 @@
   padding: 8vh;
 }
 
-/* left side  footer data */
-
-/* .leftSideFooterData,
-.middleSideFooterData,
-.rightSideFooterData {
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
-  align-items: center;
-} */
-
 /* logo */
 .companyLogo img {
   height: 10vh;
@@ -70,13 +59,13 @@
 }
 
 @media only screen and (max-width: 990px) {
-  .footer{
-    padding: 8vh 1vh 4vh 1vh;
+  .footer {
+    padding: 0vh 1vh 4vh 1vh;
   }
 
   .companyLogo img {
-  height: 8vh;
-}
+    height: 8vh;
+  }
 
   .leftSideFooterData h5 {
     font-size: 20px;
@@ -95,8 +84,8 @@
 }
 @media only screen and (max-width: 520px) {
   .companyLogo img {
-  height: 4vh;
-}
+    height: 6vh;
+  }
   .leftSideFooterData h5 {
     font-size: 19px;
   }
