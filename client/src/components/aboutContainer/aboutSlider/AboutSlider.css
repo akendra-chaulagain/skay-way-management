@@ -1,9 +1,9 @@
-.aboutTop__area {
+.topSlider__area {
   background-image: linear-gradient(
       rgba(44, 54, 95, 0.7),
       rgba(12, 43, 136, 0.7)
     ),
-    url("https://images.pexels.com/photos/1595385/pexels-photo-1595385.jpeg?auto=compress&cs=tinysrgb&w=1200");
+    url("https://images.pexels.com/photos/33999/pexels-photo.jpg?auto=compress&cs=tinysrgb&w=600");
   height: 40vh;
   width: 100%;
   background-size: cover;
@@ -12,79 +12,67 @@
   background-color: #381fae;
   overflow: hidden;
 }
-.about__shape {
-  position: absolute;
-  top: 100px;
-  left: -27px;
-  z-index: -1;
-}
 
-
-
-.aboutTop__content {
+.topSlider__content {
   position: relative;
   z-index: 1;
 }
 
-.aboutTop__content{
+.topSlider__content {
   height: 40vh;
+  width: 100%;
   display: flex;
   justify-content: center;
   flex-direction: column;
 }
-.aboutTop__content h1 {
+.topSlider__content h1 {
   font-size: 40px;
   color: white;
   font-weight: 900;
   margin-bottom: 19px;
 }
-.aboutTop__content p{
+.topSlider__content p {
   color: white;
   font-weight: 600;
+  font-size: 20px;
 }
-.aboutTop__content p span{
+.topSlider__content p span {
   margin: 10px;
 }
-.aboutTop__content p .span-1{
+.topSlider__content p .span-1 {
   cursor: pointer;
 }
 
-
-.aboutTop__shape img {
+.topSlider__shape img {
   position: absolute;
 }
-.aboutTop__shape img.triangle {
+.topSlider__shape img.triangle {
   right: 28%;
   bottom: 38%;
   animation: triangle 5s linear 0s infinite alternate;
   -webkit-animation: triangle 5s linear 0s infinite alternate;
 }
-.aboutTop__shape img.dotted-square {
+.topSlider__shape img.dotted-square {
   right: 22%;
   bottom: 31%;
   animation: dottedSquare 8s linear 0s infinite alternate;
   -webkit-animation: dottedSquare 8s linear 0s infinite alternate;
 }
-.aboutTop__shape img.solid-square {
+.topSlider__shape img.solid-square {
   bottom: 19%;
   right: 25%;
   z-index: 1;
   animation: solidsquare 5s linear 0s infinite alternate;
   -webkit-animation: solidsquare 5s linear 0s infinite alternate;
 }
-.aboutTop__shape img.circle {
+.topSlider__shape img.circle {
   right: 10%;
   bottom: -47%;
   height: 50vh;
-  animation: aboutTopCircle 7s linear 0s infinite alternate;
+  animation: topSliderCircle 7s linear 0s infinite alternate;
 }
 
-@media (max-width: 575px) {
-  .aboutTop__play {
-    margin-top: 30px;
-  }
-}
-.aboutTop__play-btn {
+.topSlider__play-btn {
   display: inline-block;
   width: 90px;
   height: 90px;
@@ -98,108 +86,33 @@
   border-radius: 50%;
   animation: pulse 2s infinite;
 }
-.aboutTop__play-btn:hover {
+.topSlider__play-btn:hover {
   background: white;
   color: #1f1841;
   border-color: white;
 }
 
-@keyframes triangle {
-  0% {
-    transform: translateY(-100px);
-    -webkit-transform: translateY(-100px);
-    -moz-transform: translateY(-100px);
-    -ms-transform: translateY(-100px);
-    -o-transform: translateY(-100px);
-  }
-  100% {
-    transform: translateY(0px);
-    -webkit-transform: translateY(0px);
-    -moz-transform: translateY(0px);
-    -ms-transform: translateY(0px);
-    -o-transform: translateY(0px);
-  }
-}
-@keyframes dottedSquare {
-  0% {
-    transform: rotate(0deg);
-    -webkit-transform: rotate(0deg);
-    -moz-transform: rotate(0deg);
-    -ms-transform: rotate(0deg);
-    -o-transform: rotate(0deg);
-  }
-  100% {
-    transform: rotate(360deg);
-    -webkit-transform: rotate(360deg);
-    -moz-transform: rotate(360deg);
-    -ms-transform: rotate(360deg);
-    -o-transform: rotate(360deg);
-  }
-}
-@keyframes solidsquare {
-  0% {
-    transform: translateY(0px);
-    -webkit-transform: translateY(0px);
-    -moz-transform: translateY(0px);
-    -ms-transform: translateY(0px);
-    -o-transform: translateY(0px);
-  }
-  25% {
-    transform: translateX(50px);
-    -webkit-transform: translateX(50px);
-    -moz-transform: translateX(50px);
-    -ms-transform: translateX(50px);
-    -o-transform: translateX(50px);
-  }
-  100% {
-    transform: translateY(100px);
-    -webkit-transform: translateY(100px);
-    -moz-transform: translateY(100px);
-    -ms-transform: translateY(100px);
-    -o-transform: translateY(100px);
-  }
-}
-@keyframes aboutTopCircle {
-  0% {
-    transform: rotate(0);
-    -webkit-transform: rotate(0);
-    -moz-transform: rotate(0);
-    -ms-transform: rotate(0);
-    -o-transform: rotate(0);
-  }
-  100% {
-    transform: rotate(360deg);
-    -webkit-transform: rotate(360deg);
-    -moz-transform: rotate(360deg);
-    -ms-transform: rotate(360deg);
-    -o-transform: rotate(360deg);
+@media only screen and (max-width: 990px) {
+  .topSlider__content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 100%;
   }
 }
 
-@media only screen and (min-width: 768px) and (max-width: 991px) {
-  .aboutTop__content h1 {
-    font-size: 50px;
-  }
-}
-@media only screen and (min-width: 576px) and (max-width: 767px) {
-  .aboutTop__content h1 {
-    font-size: 40px;
-  }
-}
-
-@media only screen and (min-width: 576px) and (max-width: 767px) {
-  .aboutTop__height {
-    min-height: 700px;
-  }
-}
-@media (max-width: 575px) {
-  .aboutTop__height {
-    min-height: 600px;
-  }
-}
-
-@media (max-width: 575px) {
-  .aboutTop__content h1 {
+@media only screen and (max-width: 768px) {
+  .topSlider__content h1 {
     font-size: 30px;
+  }
+  .topSlider__content p {
+    font-size: 16px;
+  }
+}
+
+@media only screen and (max-width: 550px) {
+ .topSlider__content p {
+    font-size: 14px;
   }
 }

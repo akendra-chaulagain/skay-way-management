@@ -16,12 +16,10 @@ const About = () => {
             </div>
             <div
               class=" col-md-5 col-xs-12 aboutDataText"
-              // data-aos="flip-left"
-              // data-aos-duration="1500"
             >
               <div class="about__content">
-                <div class="abouitsection__title">
-                  <h2>ABOUT US</h2>
+                <div class="section__title">
+                  ABOUT US
                 </div>
                 <p>
                   Sky Way Management, A last resort of Manpower requirement to

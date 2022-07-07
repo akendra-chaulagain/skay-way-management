@@ -16,10 +16,29 @@
   color: white;
   font-size: 30px;
 }
-.aboutUsInfoData p{
+.aboutUsInfoData p {
+  color: white;
+  font-size: 19px;
+  margin-top: 15px;
+  line-height: 30px;
+  text-align: justify;
+}
+@media only screen and (max-width: 990px) {
+  .AboutUsInfo {
+    padding: 4vh 0vh 2vh 0vh;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .aboutUsInfoTitle h1 {
     color: white;
-    font-size: 18px;
-    margin-top: 15px;
-    line-height: 30px;
-    text-align: justify;
+    font-size: 30px;
+    margin-top: 4px;
+  }
+  .aboutUsInfoData p {
+    font-size: 17px;
+  }
+  .aboutUsInfoTitle h2 {
+  font-size: 25px;
+}
 }

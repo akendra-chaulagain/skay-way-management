@@ -8,7 +8,7 @@ const JobsSection = () => {
     <>
       <div className="jobSection">
         <div className="container">
-          <div className="jobSectionTitle">New Jobs</div>
+          <div className="section__title">New Jobs</div>
 
           <div className="row ">
             {job.map((item) => (
@@ -31,7 +31,7 @@ const JobsSection = () => {
             ))}
             <div className="viewAllJob">
               <Link className="link" to="/job">
-                <p>View All</p>
+                View All
               </Link>
             </div>
           </div>

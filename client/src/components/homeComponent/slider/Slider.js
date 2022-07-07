@@ -32,7 +32,7 @@ const Slider = () => {
                 data-aos-duration="1800"
               >
                 <div className="row">
-                  <div className="col-xl-12 col-lg-12 col-md-10 col-sm-10 slider__content">
+                  <div className="col-xl-12 col-lg-12 col-md-10 col-sm-10 homeSlider__content">
                     <span>
                       Sky-Way Management always deliver high quality service.
                     </span>

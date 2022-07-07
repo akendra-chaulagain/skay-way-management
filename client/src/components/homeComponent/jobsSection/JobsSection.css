@@ -19,7 +19,7 @@
 .jobSectionData {
   background-color: rgba(4, 9, 30, 0.7);
   height: auto;
-  width: 430px;
+  width: 100%;
   border-radius: 10px;
   display: flex;
   padding: 10px;
@@ -63,17 +63,22 @@
   color: black;
   background-color: white;
 }
-.viewAllJob p{
+.viewAllJob p {
   display: flex;
   justify-content: end;
   color: white;
-  margin-top:15px;
+  margin-top: 15px;
   font-weight: 600;
   cursor: pointer;
 }
-.viewAllJob p:hover{
+.viewAllJob p:hover {
   text-decoration: underline;
   color: #4636ff;
+}
+
+@media only screen and (max-width: 1300px) {
+  .jobImg {
+  }
 }
 
 @media only screen and (max-width: 990px) {

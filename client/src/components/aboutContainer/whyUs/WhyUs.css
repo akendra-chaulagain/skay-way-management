@@ -20,6 +20,24 @@
 .leftSideWhyUs p,
 .rightSideWhyUs p {
   color: white;
-  font-size: 18px;
+  font-size: 19px;
   text-align: justify;
+}
+
+@media only screen and (max-width: 990px) {
+  .whyUs {
+    padding: 4vh 0vh 2vh 0vh;
+  }
+@media only screen and (max-width: 768px) {
+.leftSideWhyUs h3,
+.rightSideWhyUs h3 {
+  font-size: 22px;
+}
+.leftSideWhyUs p,
+.rightSideWhyUs p {
+  color: white;
+  font-size: 17px;
+}
+}
+
 }

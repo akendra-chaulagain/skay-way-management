@@ -9,10 +9,10 @@ import {Link} from "react-router-dom"
 const ResumeSlider = () => {
   return (
     <>
-      <section className="resumeSlider__area">
-        <div className="resumeSlider-active">
-          <div className="single-resumeSlider resumeSlider__height d-flex align-items-center">
-            <div className="resumeSlider__shape">
+      <section className="topSlider__area">
+        <div className="topSlider-active">
+          <div className="single-topSlider topSlider__height d-flex align-items-center">
+            <div className="topSlider__shape">
               <img className="shape triangle" src={triangle} alt="triangle" />
               <img
                 className="shape dotted-square"
@@ -27,14 +27,14 @@ const ResumeSlider = () => {
               <img className="shape circle" src={triangle4} alt="circle" />
             </div>
             <div
-              className="container resumeSliderContent"
+              className="container topSliderContent"
               data-aos="fade-up"
               data-aos-duration="1800"
             >
               {/* about us slider content */}
               <div className="row">
-                <div className="col-xl-9 col-lg-9 col-md-10 col-sm-10">
-                  <div className="resumeSlider__content">
+                <div className="col-xl-12 col-lg-12 col-md-12 col-sm-12">
+                  <div className="topSlider__content">
                     <h1 data-animation="fadeInUp" data-delay=".5s">
                       Post Resume
                     </h1>
@@ -42,10 +42,10 @@ const ResumeSlider = () => {
                       <Link className="link" to="/sky-way">
                         <span className="span-1">Home</span>
                       </Link>
-                      |<span>Post resume</span>
+                      |<span>Post Resume</span>
                     </p>
                     <div
-                      className="resumeSlider__btn"
+                      className="topSlider__btn"
                       data-animation="fadeInUp"
                       data-delay=".7s"
                     ></div>

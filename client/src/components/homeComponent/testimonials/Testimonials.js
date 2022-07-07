@@ -29,7 +29,7 @@ const Testimonials = () => {
     <>
       <div className="testimonials">
         <div className="container ">
-          <div className="testimonialsTopBar">Our Clients Say</div>
+          <div className="section__title">Our Clients Say</div>
           <div className="testomonialsWrapper">
             <div className="row">
               <Carousel

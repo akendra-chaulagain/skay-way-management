@@ -8,7 +8,7 @@ const Team = () => {
       <div className="team">
         <div className="container ">
           <div className="teamWrapper">
-            <div className="teamTitle">Our Team</div>
+            <div className="section__title">Our Team</div>
             <div className="teamWrapper">
               <div className="row ">
                 {member.map((item) => (

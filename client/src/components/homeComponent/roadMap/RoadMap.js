@@ -7,7 +7,7 @@ const RoadMap = () => {
     <div className="roadMap">
       <div className="container">
         <div className="roadMapWrapper">
-          <div className="roadMapTitle">Operating Procedure</div>
+          <div className="section__title">Operating Procedure</div>
           <div className="roadMapWrapper">
             <div className="row ">
               {roadMap.map((item) => (

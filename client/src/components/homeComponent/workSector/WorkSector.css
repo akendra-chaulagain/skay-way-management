@@ -13,16 +13,7 @@
   align-items: center;
   padding: 8vh;
 }
-.sectorTitle {
-  display: flex;
-  justify-content: center;
-  font-size: 30px;
-  font-weight: 900;
-  color: white;
-}
-/* .sectorWrapper {
-  width: 100%;
-} */
+
 
 .sector__item {
   border-radius: 10px;
@@ -52,7 +43,8 @@
 
 @media only screen and (max-width: 990px) {
   .sector {
-    padding: 4vh 0vh 2vh 0vh;
+   padding: 2vh 0vh 2vh 0vh;
+   
   }
   .sectorTitle {
     font-size: 24px;

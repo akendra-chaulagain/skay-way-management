@@ -9,7 +9,7 @@
 .messageImg img {
   height: 350px;
   width: 100%;
-  border-radius: 10px;
+  border-radius: 5px;
 }
 
 
@@ -34,13 +34,12 @@
 
 @media only screen and (max-width: 990px) {
   .message {
-   padding: 4vh 0vh 0vh 0vh;
+   padding: 2vh 0vh 2vh 0vh;
     overflow: hidden;
   }
   .messageImg img {
     height: 320px;
     width: 350px;
-    border-radius: 10px;
   }
 
   .messagename {
@@ -60,6 +59,9 @@
     display: flex;
     justify-content: center;
   }
+  .messageImg img{
+    width: 100%;
+  }
   .messageContent {
     width: 100%;
   }
@@ -70,14 +72,17 @@
     font-size: 15px;
   }
   .secondImg img{
-    margin-top: -60px;
+    width: 100%;
   }
+  .secondData{
+    margin-top: 4px;
+  }
+
 }
 
 @media only screen and (max-width: 512px) {
   .messageImg img {
     height: 250px;
     width: 350px;
-    border-radius: 10px;
   }
 }

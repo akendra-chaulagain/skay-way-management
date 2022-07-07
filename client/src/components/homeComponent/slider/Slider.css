@@ -22,13 +22,13 @@
   z-index: -1;
 }
 
-.slider__content > span {
+.homeSlider__content > span {
   color: white;
   font-size: 20px;
   display: inline-block;
   margin-bottom: 7px;
 }
-.slider__content h1 {
+.homeSlider__content h1 {
   font-size: 50px;
   color: white;
   font-weight: 900;
@@ -159,18 +159,18 @@
     display: flex;
     justify-content: center;
   }
-  .slider__content {
+  .homeSlider__content {
     width: 100%;
     display: flex;
     justify-content: center;
     flex-direction: column;
     align-items: center;
   }
-  .slider__content h1 {
+  .homeSlider__content h1 {
     font-size: 30px;
     margin-bottom: 7px;
   }
-  .slider__content > span {
+  .homeSlider__content > span {
     font-size: 17px;
   }
   .slider__btn button {
@@ -183,11 +183,11 @@
   .slider__area{
     padding: 0vh;
   }
-  .slider__content h1 {
+  .homeSlider__content h1 {
     font-size: 25px;
     margin-bottom: 13px;
   }
-  .slider__content > span {
+  .homeSlider__content > span {
     font-size: 16px;
   }
   .z-btn-transparent {
@@ -204,16 +204,16 @@
   }
 }
 @media only screen and (min-width: 576px) and (max-width: 525px) {
-  .slider__content {
+  .homeSlider__content {
     display: flex;
 
   }
 
-  .slider__content h1 {
+  .homeSlider__content h1 {
     font-size: 24px;
     margin-bottom: 13px;
   }
-  .slider__content > span {
+  .homeSlider__content > span {
     font-size: 15px;
   }
     .slider__btn button {

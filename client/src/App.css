@@ -7,7 +7,7 @@
   font-family: "Rubik", sans-serif;
   font-family: "Anek Malayalam", sans-serif;
 }
-body{
+body {
   background-color: #f9f8fe;
 }
 .link {
@@ -19,3 +19,14 @@ body{
   color: inherit;
   background-color: inherit;
 }
+
+/* title for  all component */
+.section__title {
+  color: white;
+  display: flex;
+  justify-content: center;
+  font-size: 30px;
+  font-weight: 600;
+  margin: 10px;
+}
+

@@ -33,7 +33,7 @@ const Client = () => {
     <>
       <div className="client">
         <div className="container ">
-          <div className="clientTopBar">Our Clients</div>
+          <div className="section__title">Our Clients</div>
           <div className="clientWrapper">
             <div className="row">
               <Carousel
@@ -42,7 +42,6 @@ const Client = () => {
                 showDots={false}
                 autoPlay={true}
                 infinite={true}
-               
               >
                 {client?.map((item) => (
                   <div class="col-md-11">

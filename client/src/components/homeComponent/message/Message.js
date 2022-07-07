@@ -15,7 +15,7 @@ const Messange = () => {
                 <img src={chairman} alt="Img_message" />
               </div>
               <div className="col-lg-7 col-md-6 messageContent">
-                <div className="messagename">MESSAGE FROM CHAIRMAN</div>
+                <div className="section__title">MESSAGE FROM CHAIRMAN</div>
                 <p>
                   Dear Valued Clients and Associates <br /> Greeting From SKY
                   WAY MANAGEMENT <br /> Since its’ operation SKY WAY Management
@@ -32,7 +32,7 @@ const Messange = () => {
                 </p>
               </div>
               <div className=" col-md-7 messageContent secondData">
-                <div className="messagename">
+                <div className="section__title  ">
                   MESSAGE FROM MANAGING DIRECTOR
                 </div>
 

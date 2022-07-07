@@ -71,7 +71,7 @@
 
 @media only screen and (max-width: 990px) {
   .roadMap {
-   padding: 8vh 0vh 2vh 0vh;
+   padding: 2vh 0vh 2vh 0vh;
     width: 100%;
     overflow: hidden;
   }
