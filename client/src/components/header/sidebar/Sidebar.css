@@ -90,16 +90,19 @@
     display: flex;
     justify-content: space-between;
   }
-  .fa-plus{
+  .fa-plus {
     display: flex;
     justify-content: center;
   }
   .fa-plus:before {
     font-size: 15px;
   }
-  .collapse{
-    background-color: aqua;
-    padding: 10px;
+  .collapse_item {
+    list-style: none;
+    margin-left: -20px;
+  }
+  .collapse_item {
+    margin: 20px 10px 13px 0px;
   }
 }
 
